@@ -1,0 +1,992 @@
+  org(3) type=0
+    dod(6) type=0
+      internet(1) type=0
+        directory(1) type=0
+        mgmt(2) type=0
+          mib-2(1) type=0
+            system(1) type=0
+              sysDescr(1) type=2
+              sysObjectID(2) type=1
+              sysUpTime(3) type=8
+              sysContact(4) type=2
+              sysName(5) type=2
+              sysLocation(6) type=2
+              sysServices(7) type=3
+            interfaces(2) type=0
+              ifNumber(1) type=3
+              ifTable(2) type=0
+                ifEntry(1) type=0
+                  ifIndex(1) type=3
+                  ifDescr(2) type=2
+                  ifType(3) type=3
+                  ifMtu(4) type=3
+                  ifSpeed(5) type=7
+                  ifPhysAddress(6) type=2
+                  ifAdminStatus(7) type=3
+                  ifOperStatus(8) type=3
+                  ifLastChange(9) type=8
+                  ifInOctets(10) type=6
+                  ifInUcastPkts(11) type=6
+                  ifInNUcastPkts(12) type=6
+                  ifInDiscards(13) type=6
+                  ifInErrors(14) type=6
+                  ifInUnknownProtos(15) type=6
+                  ifOutOctets(16) type=6
+                  ifOutUcastPkts(17) type=6
+                  ifOutNUcastPkts(18) type=6
+                  ifOutDiscards(19) type=6
+                  ifOutErrors(20) type=6
+                  ifOutQLen(21) type=7
+                  ifSpecific(22) type=1
+            at(3) type=0
+              atTable(1) type=0
+                atEntry(1) type=0
+                  atIfIndex(1) type=3
+                  atPhysAddress(2) type=2
+                  atNetAddress(3) type=4
+            ip(4) type=0
+              ipForwarding(1) type=3
+              ipDefaultTTL(2) type=3
+              ipInReceives(3) type=6
+              ipInHdrErrors(4) type=6
+              ipInAddrErrors(5) type=6
+              ipForwDatagrams(6) type=6
+              ipInUnknownProtos(7) type=6
+              ipInDiscards(8) type=6
+              ipInDelivers(9) type=6
+              ipOutRequests(10) type=6
+              ipOutDiscards(11) type=6
+              ipOutNoRoutes(12) type=6
+              ipReasmTimeout(13) type=3
+              ipReasmReqds(14) type=6
+              ipReasmOKs(15) type=6
+              ipReasmFails(16) type=6
+              ipFragOKs(17) type=6
+              ipFragFails(18) type=6
+              ipFragCreates(19) type=6
+              ipAddrTable(20) type=0
+                ipAddrEntry(1) type=0
+                  ipAdEntAddr(1) type=5
+                  ipAdEntIfIndex(2) type=3
+                  ipAdEntNetMask(3) type=5
+                  ipAdEntBcastAddr(4) type=3
+                  ipAdEntReasmMaxSize(5) type=3
+              ipRouteTable(21) type=0
+                ipRouteEntry(1) type=0
+                  ipRouteDest(1) type=5
+                  ipRouteIfIndex(2) type=3
+                  ipRouteMetric1(3) type=3
+                  ipRouteMetric2(4) type=3
+                  ipRouteMetric3(5) type=3
+                  ipRouteMetric4(6) type=3
+                  ipRouteNextHop(7) type=5
+                  ipRouteType(8) type=3
+                  ipRouteProto(9) type=3
+                  ipRouteAge(10) type=3
+                  ipRouteMask(11) type=5
+                  ipRouteMetric5(12) type=3
+                  ipRouteInfo(13) type=1
+              ipNetToMediaTable(22) type=0
+                ipNetToMediaEntry(1) type=0
+                  ipNetToMediaIfIndex(1) type=3
+                  ipNetToMediaPhysAddress(2) type=2
+                  ipNetToMediaNetAddress(3) type=5
+                  ipNetToMediaType(4) type=3
+              ipRoutingDiscards(23) type=6
+            icmp(5) type=0
+              icmpInMsgs(1) type=6
+              icmpInErrors(2) type=6
+              icmpInDestUnreachs(3) type=6
+              icmpInTimeExcds(4) type=6
+              icmpInParmProbs(5) type=6
+              icmpInSrcQuenchs(6) type=6
+              icmpInRedirects(7) type=6
+              icmpInEchos(8) type=6
+              icmpInEchoReps(9) type=6
+              icmpInTimestamps(10) type=6
+              icmpInTimestampReps(11) type=6
+              icmpInAddrMasks(12) type=6
+              icmpInAddrMaskReps(13) type=6
+              icmpOutMsgs(14) type=6
+              icmpOutErrors(15) type=6
+              icmpOutDestUnreachs(16) type=6
+              icmpOutTimeExcds(17) type=6
+              icmpOutParmProbs(18) type=6
+              icmpOutSrcQuenchs(19) type=6
+              icmpOutRedirects(20) type=6
+              icmpOutEchos(21) type=6
+              icmpOutEchoReps(22) type=6
+              icmpOutTimestamps(23) type=6
+              icmpOutTimestampReps(24) type=6
+              icmpOutAddrMasks(25) type=6
+              icmpOutAddrMaskReps(26) type=6
+            tcp(6) type=0
+              tcpRtoAlgorithm(1) type=3
+              tcpRtoMin(2) type=3
+              tcpRtoMax(3) type=3
+              tcpMaxConn(4) type=3
+              tcpActiveOpens(5) type=6
+              tcpPassiveOpens(6) type=6
+              tcpAttemptFails(7) type=6
+              tcpEstabResets(8) type=6
+              tcpCurrEstab(9) type=7
+              tcpInSegs(10) type=6
+              tcpOutSegs(11) type=6
+              tcpRetransSegs(12) type=6
+              tcpConnTable(13) type=0
+                tcpConnEntry(1) type=0
+                  tcpConnState(1) type=3
+                  tcpConnLocalAddress(2) type=5
+                  tcpConnLocalPort(3) type=3
+                  tcpConnRemAddress(4) type=5
+                  tcpConnRemPort(5) type=3
+              tcpInErrs(14) type=6
+              tcpOutRsts(15) type=6
+            udp(7) type=0
+              udpInDatagrams(1) type=6
+              udpNoPorts(2) type=6
+              udpInErrors(3) type=6
+              udpOutDatagrams(4) type=6
+              udpTable(5) type=0
+                udpEntry(1) type=0
+                  udpLocalAddress(1) type=5
+                  udpLocalPort(2) type=3
+            egp(8) type=0
+              egpInMsgs(1) type=6
+              egpInErrors(2) type=6
+              egpOutMsgs(3) type=6
+              egpOutErrors(4) type=6
+              egpNeighTable(5) type=0
+                egpNeighEntry(1) type=0
+                  egpNeighState(1) type=3
+                  egpNeighAddr(2) type=5
+                  egpNeighAs(3) type=3
+                  egpNeighInMsgs(4) type=6
+                  egpNeighInErrs(5) type=6
+                  egpNeighOutMsgs(6) type=6
+                  egpNeighOutErrs(7) type=6
+                  egpNeighInErrMsgs(8) type=6
+                  egpNeighOutErrMsgs(9) type=6
+                  egpNeighStateUps(10) type=6
+                  egpNeighStateDowns(11) type=6
+                  egpNeighIntervalHello(12) type=3
+                  egpNeighIntervalPoll(13) type=3
+                  egpNeighMode(14) type=3
+                  egpNeighEventTrigger(15) type=3
+              egpAs(6) type=3
+            transmission(10) type=0
+            snmp(11) type=0
+              snmpInPkts(1) type=6
+              snmpOutPkts(2) type=6
+              snmpInBadVersions(3) type=6
+              snmpInBadCommunityNames(4) type=6
+              snmpInBadCommunityUses(5) type=6
+              snmpInASNParseErrs(6) type=6
+              snmpInTooBigs(8) type=6
+              snmpInNoSuchNames(9) type=6
+              snmpInBadValues(10) type=6
+              snmpInReadOnlys(11) type=6
+              snmpInGenErrs(12) type=6
+              snmpInTotalReqVars(13) type=6
+              snmpInTotalSetVars(14) type=6
+              snmpInGetRequests(15) type=6
+              snmpInGetNexts(16) type=6
+              snmpInSetRequests(17) type=6
+              snmpInGetResponses(18) type=6
+              snmpInTraps(19) type=6
+              snmpOutTooBigs(20) type=6
+              snmpOutNoSuchNames(21) type=6
+              snmpOutBadValues(22) type=6
+              snmpOutGenErrs(24) type=6
+              snmpOutGetRequests(25) type=6
+              snmpOutGetNexts(26) type=6
+              snmpOutSetRequests(27) type=6
+              snmpOutGetResponses(28) type=6
+              snmpOutTraps(29) type=6
+              snmpEnableAuthenTraps(30) type=3
+            ianaifType(30) type=24
+        experimental(3) type=0
+        private(4) type=0
+          enterprises(1) type=0
+            saf(7571) type=24
+              tehnika(100) type=27
+                microwaveRadio(1) type=0
+                  pointToPoint(1) type=0
+                    cfm22(2) type=0
+                      mpmux(22) type=0
+                        mpmux#(0) type=20
+                          alarmTrap(0) type=0
+                          alinkTrap(1) type=0
+                        terminal(1) type=0
+                          termProduct(1) type=2
+                          termDescription(2) type=2
+                          termLocation(3) type=2
+                          termVersion(4) type=2
+                          termOperation(5) type=3
+                          termIduTemperature(6) type=3
+                          termFrameErrors(10) type=3
+                          writeConfig(11) type=3
+                          restartCPU(12) type=3
+                          serialNumber(13) type=2
+                          termRf1CablePowerStatus(14) type=3
+                          termRf2CablePowerStatus(15) type=3
+                          power3V3PS1(16) type=2
+                          power5VPS1(17) type=2
+                          powerM5VPS1(18) type=2
+                          powerODU1V(19) type=2
+                          powerODU1I(20) type=2
+                          powerODU1W(21) type=2
+                          power3V3PS2(22) type=2
+                          power5VPS2(23) type=2
+                          powerM5VPS2(24) type=2
+                          powerODU2V(25) type=2
+                          powerODU2I(26) type=2
+                          powerODU2W(27) type=2
+                          cpuUsage(28) type=3
+                          termBFrameErr(29) type=6
+                          termStatCountTime(30) type=7
+                          termErroredSecond(31) type=7
+                          termSeverelyErroredSecond(32) type=7
+                          termSyncLostTime(33) type=7
+                          termAvailableTime(34) type=7
+                          termUnAvailableTime(35) type=7
+                          termBer(36) type=2
+                          berAlarm(37) type=3
+                          remoteAlarm(38) type=3
+                          systemAlarm(39) type=3
+                          inputABCD(40) type=3
+                          outputABCD(41) type=3
+                          termBerInPwOf10(42) type=3
+                          outputMaskABCD(43) type=3
+                        baseband(2) type=0
+                          bbVersion(1) type=2
+                          bbOperation(2) type=3
+                          bbLinkCapacity(3) type=3
+                          bbLinkCapacityDescription(4) type=2
+                          bbLoopback(5) type=3
+                          bbSyncLostAlarm(6) type=3
+                        radio1(3) type=0
+                          rf1Operation(1) type=3
+                          rf1Alarm(2) type=3
+                          rf1Version(3) type=2
+                          rf1Side(4) type=3
+                          rf1Channel(5) type=3
+                          rf1TxFrequency(6) type=2
+                          rf1RxFrequency(7) type=2
+                          rf1TxPower(8) type=3
+                          rf1RxState(9) type=3
+                          rf1RxLevel(10) type=3
+                          rf1CableAttenuation(11) type=3
+                          rf1TxOut(12) type=3
+                          rf1TxPLL(13) type=3
+                          rf1RxPLL(14) type=3
+                          rf1OduTemperature(15) type=3
+                          rf1OduHumidity(16) type=3
+                          rf1Loopback(17) type=3
+                          rf1RxAlarmLevel(18) type=3
+                          rf1txfstart(19) type=3
+                          rf1duplexshift(20) type=3
+                          rf1chstep(21) type=3
+                          rf1chstart(22) type=3
+                          rf1chend(23) type=3
+                          rf1txpwmin(24) type=3
+                          rf1txpwmax(25) type=3
+                          rf1txpwstep(26) type=3
+                        radio2(4) type=0
+                          rf2Operation(1) type=3
+                          rf2Alarm(2) type=3
+                          rf2Version(3) type=2
+                          rf2Side(4) type=3
+                          rf2Channel(5) type=3
+                          rf2TxFrequency(6) type=2
+                          rf2RxFrequency(7) type=2
+                          rf2TxPower(8) type=3
+                          rf2RxState(9) type=3
+                          rf2RxLevel(10) type=3
+                          rf2CableAttenuation(11) type=3
+                          rf2TxOut(12) type=3
+                          rf2TxPLL(13) type=3
+                          rf2RxPLL(14) type=3
+                          rf2OduTemperature(15) type=3
+                          rf2OduHumidity(16) type=3
+                          rf2Loopback(17) type=3
+                          rf2RxAlarmLevel(18) type=3
+                          rf2txfstart(19) type=3
+                          rf2duplexshift(20) type=3
+                          rf2chstep(21) type=3
+                          rf2chstart(22) type=3
+                          rf2chend(23) type=3
+                          rf2txpwmin(24) type=3
+                          rf2txpwmax(25) type=3
+                          rf2txpwstep(26) type=3
+                        switchCtrl(5) type=0
+                          activeLink(1) type=3
+                          activeTx(2) type=3
+                          preferedLink(3) type=3
+                          forcedLink(4) type=3
+                          switchMode(5) type=3
+                          odu1RxMax(6) type=3
+                          odu2RxMax(7) type=3
+                          odu1RxMin(8) type=3
+                          odu2RxMin(9) type=3
+                          rxDelta(10) type=3
+                          rxBER(11) type=2
+                          switchDelay(12) type=3
+                          switchEnabledForRxBer(13) type=3
+                          switchReason(14) type=3
+                        modules(6) type=0
+                          m1(1) type=0
+                            m1Type(1) type=3
+                            m1Description(2) type=2
+                            m1Version(3) type=2
+                            m1Speed(4) type=3
+                            m1Operation(5) type=3
+                            m1Rx(6) type=3
+                            m1Tx(7) type=3
+                            m1Loopback(8) type=3
+                            m1RxInput(9) type=3
+                            m1TxMode(10) type=3
+                            m1TxClockSource(11) type=3
+                            m1TxClockPhase(12) type=3
+                            m1DataPolarity(13) type=3
+                            m1ChanCount(14) type=3
+                            m1port1(21) type=0
+                              m1p1statbin(1) type=3
+                              m1p1connection(2) type=3
+                              m1p1flowcntrl(3) type=3
+                              m1p1priority(4) type=3
+                              m1p1loopback(5) type=3
+                            m1port2(22) type=0
+                              m1p2statbin(1) type=3
+                              m1p2connection(2) type=3
+                              m1p2flowcntrl(3) type=3
+                              m1p2priority(4) type=3
+                              m1p2loopback(5) type=3
+                            m1port3(23) type=0
+                              m1p3statbin(1) type=3
+                              m1p3connection(2) type=3
+                              m1p3flowcntrl(3) type=3
+                              m1p3priority(4) type=3
+                              m1p3loopback(5) type=3
+                            m1port4(24) type=0
+                              m1p4statbin(1) type=3
+                              m1p4connection(2) type=3
+                              m1p4flowcntrl(3) type=3
+                              m1p4priority(4) type=3
+                              m1p4loopback(5) type=3
+                          m2(2) type=0
+                            m2Type(1) type=3
+                            m2Description(2) type=2
+                            m2Version(3) type=2
+                            m2Speed(4) type=3
+                            m2Operation(5) type=3
+                            m2Rx(6) type=3
+                            m2Tx(7) type=3
+                            m2Loopback(8) type=3
+                            m2RxInput(9) type=3
+                            m2TxMode(10) type=3
+                            m2TxClockSource(11) type=3
+                            m2TxClockPhase(12) type=3
+                            m2DataPolarity(13) type=3
+                            m2ChanCount(14) type=3
+                            m2port1(21) type=0
+                              m2p1statbin(1) type=3
+                              m2p1connection(2) type=3
+                              m2p1flowcntrl(3) type=3
+                              m2p1priority(4) type=3
+                              m2p1loopback(5) type=3
+                            m2port2(22) type=0
+                              m2p2statbin(1) type=3
+                              m2p2connection(2) type=3
+                              m2p2flowcntrl(3) type=3
+                              m2p2priority(4) type=3
+                              m2p2loopback(5) type=3
+                            m2port3(23) type=0
+                              m2p3statbin(1) type=3
+                              m2p3connection(2) type=3
+                              m2p3flowcntrl(3) type=3
+                              m2p3priority(4) type=3
+                              m2p3loopback(5) type=3
+                            m2port4(24) type=0
+                              m2p4statbin(1) type=3
+                              m2p4connection(2) type=3
+                              m2p4flowcntrl(3) type=3
+                              m2p4priority(4) type=3
+                              m2p4loopback(5) type=3
+                          m3(3) type=0
+                            m3Type(1) type=3
+                            m3Description(2) type=2
+                            m3Version(3) type=2
+                            m3Speed(4) type=3
+                            m3Operation(5) type=3
+                            m3Rx(6) type=3
+                            m3Tx(7) type=3
+                            m3Loopback(8) type=3
+                            m3RxInput(9) type=3
+                            m3TxMode(10) type=3
+                            m3TxClockSource(11) type=3
+                            m3TxClockPhase(12) type=3
+                            m3DataPolarity(13) type=3
+                            m3ChanCount(14) type=3
+                            m3port1(21) type=0
+                              m3p1statbin(1) type=3
+                              m3p1connection(2) type=3
+                              m3p1flowcntrl(3) type=3
+                              m3p1priority(4) type=3
+                              m3p1loopback(5) type=3
+                            m3port2(22) type=0
+                              m3p2statbin(1) type=3
+                              m3p2connection(2) type=3
+                              m3p2flowcntrl(3) type=3
+                              m3p2priority(4) type=3
+                              m3p2loopback(5) type=3
+                            m3port3(23) type=0
+                              m3p3statbin(1) type=3
+                              m3p3connection(2) type=3
+                              m3p3flowcntrl(3) type=3
+                              m3p3priority(4) type=3
+                              m3p3loopback(5) type=3
+                            m3port4(24) type=0
+                              m3p4statbin(1) type=3
+                              m3p4connection(2) type=3
+                              m3p4flowcntrl(3) type=3
+                              m3p4priority(4) type=3
+                              m3p4loopback(5) type=3
+                          m4(4) type=0
+                            m4Type(1) type=3
+                            m4Description(2) type=2
+                            m4Version(3) type=2
+                            m4Speed(4) type=3
+                            m4Operation(5) type=3
+                            m4Rx(6) type=3
+                            m4Tx(7) type=3
+                            m4Loopback(8) type=3
+                            m4RxInput(9) type=3
+                            m4TxMode(10) type=3
+                            m4TxClockSource(11) type=3
+                            m4TxClockPhase(12) type=3
+                            m4DataPolarity(13) type=3
+                            m4ChanCount(14) type=3
+                            m4port1(21) type=0
+                              m4p1statbin(1) type=3
+                              m4p1connection(2) type=3
+                              m4p1flowcntrl(3) type=3
+                              m4p1priority(4) type=3
+                              m4p1loopback(5) type=3
+                            m4port2(22) type=0
+                              m4p2statbin(1) type=3
+                              m4p2connection(2) type=3
+                              m4p2flowcntrl(3) type=3
+                              m4p2priority(4) type=3
+                              m4p2loopback(5) type=3
+                            m4port3(23) type=0
+                              m4p3statbin(1) type=3
+                              m4p3connection(2) type=3
+                              m4p3flowcntrl(3) type=3
+                              m4p3priority(4) type=3
+                              m4p3loopback(5) type=3
+                            m4port4(24) type=0
+                              m4p4statbin(1) type=3
+                              m4p4connection(2) type=3
+                              m4p4flowcntrl(3) type=3
+                              m4p4priority(4) type=3
+                              m4p4loopback(5) type=3
+                    safip(5) type=0
+                      ipRadio(1) type=0
+                        ipRadioCfg(1) type=0
+                          ipRadioCfgGeneral(1) type=0
+                            product(1) type=2
+                            description(2) type=2
+                            hostname(3) type=2
+                            sysDateAndTime(4) type=2 hint=2d-1d-1d,1d:1d:1d.1d,1a1d:1d
+                            sysTemperature(5) type=3
+                            license(6) type=2
+                            licenseMask(7) type=3
+                            licenseUpdateStatus(8) type=3
+                            radioTable(10) type=0
+                              radioEntry(1) type=0
+                                radioIndex(1) type=3
+                                radioGenStatus(2) type=3
+                                radioSide(3) type=3
+                                radioTxPower(4) type=3
+                                radioRxLevel(5) type=3
+                                radioDuplexShift(6) type=3
+                                radioLoopback(7) type=3
+                                radioTxMute(8) type=3
+                                radioTxFrequency(9) type=3
+                                radioRxFrequency(10) type=3
+                            aTPCTable(11) type=0
+                              aTPCEntry(1) type=0
+                                atpcIndex(1) type=3
+                                atpcEnabled(2) type=3
+                                atpcTxPowerCorrection(3) type=3
+                            modemTable(12) type=0
+                              modemEntry(1) type=0
+                                modemIndex(1) type=3
+                                modemGeneralStatus(2) type=3
+                                modemBandwith(3) type=3
+                                modemE1T1Channels(4) type=3
+                                modemModulation(5) type=3
+                                modemTotalCapacity(6) type=3
+                                modemEthernetCapacity(7) type=3
+                                modemAcqStatus(8) type=3
+                                modemLastAcqError(9) type=3
+                                modemRadialMSE(10) type=3
+                                modemInternalAGCgain(11) type=3
+                                modemCarrierOffset(12) type=3
+                                modemSymbolRateTx(13) type=3
+                                modemSymbolRateRx(14) type=3
+                                modemLDPCdecoderStress(15) type=2
+                                modemACMengine(16) type=3
+                                modemACMmodulationMin(17) type=3
+                                modemACMtotalCapacity(18) type=3
+                                modemACMethernetCapacity(19) type=3
+                                modemStandard(20) type=3
+                                modemE1T1ChannelMask(21) type=3
+                                modemACMmodulationMax(22) type=3
+                                modemRowStatus(23) type=3
+                            vlansEnabled(13) type=3
+                            vlanTable(14) type=0
+                              vlanEntry(1) type=0
+                                vlanNumber(1) type=3
+                                vlanPortType(2) type=3
+                                vlanPortmap(3) type=3
+                                vlanFid(4) type=3
+                                vlanCfgStat(5) type=3
+                                vlanRowStatus(6) type=3
+                          ipRadioCfgNetwork(2) type=0
+                            localIp(1) type=5
+                            localIpMask(2) type=5
+                            remoteIp(3) type=5
+                        ipRadioMgmt(2) type=0
+                          writeConfig(1) type=3
+                          restartcpu(2) type=3
+                          loopbacks(3) type=3
+                          loopback-tributary-mask(4) type=3
+                        ipRadioStat(3) type=0
+                          ipRadioStatEth(2) type=0
+                            ethRXTruncatedFrames(1) type=6
+                            ethRXLongEvents(2) type=6
+                            ethRXVlanTagsDetected(3) type=6
+                            ethRXUnsupOpcodes(4) type=6
+                            ethRXPauseFrames(5) type=6
+                            ethRXControlFrames(6) type=6
+                            ethRXDribleNibbles(7) type=6
+                            ethRXBroadcasts(8) type=6
+                            ethRXMulticasts(9) type=6
+                            ethRXDones(10) type=6
+                            ethRXOutOfRangeErrors(11) type=6
+                            ethRXLengthCheckerrorsErrors(12) type=6
+                            ethRXCRCErrors(13) type=6
+                            ethRXCodeErrors(14) type=6
+                            ethRXFalseCarrierErrors(15) type=6
+                            ethRXDvEvent(16) type=6
+                            ethRXPrevPktDropped(17) type=6
+                            ethRXByteCounterHi(18) type=6
+                            ethRXByteCounterLow(19) type=6
+                            ethTXVlanTags(21) type=6
+                            ethTXBackpresEvents(22) type=6
+                            ethTXPauseFrames(23) type=6
+                            ethTXControlFrames(24) type=6
+                            ethTXWireByteCounterHi(25) type=6
+                            ethTXWireByteCounterLow(26) type=6
+                            ethTXUnderruns(28) type=6
+                            ethTXGiants(29) type=6
+                            ethTXLateCollisions(30) type=6
+                            ethTXMaxCollisions(31) type=6
+                            ethTXExcessiveDefers(32) type=6
+                            ethTXNonExcessiveDefers(33) type=6
+                            ethTXBroadcasts(34) type=6
+                            ethTXMulticasts(35) type=6
+                            ethTXDones(36) type=6
+                            ethTXLengthCheckErrors(38) type=6
+                            ethTXCRCErrors(39) type=6
+                            ethTXCollisions(40) type=6
+                            ethTXByteCounterHi(41) type=6
+                            ethTXByteCounterLow(42) type=6
+                            ethGFPFCSErrors(44) type=6
+                            ethGFPCHECErrors(45) type=6
+                            ethGFPDropedFrames(46) type=6
+                            ethGFPDelineationErrors(47) type=6
+                            ethQOSRXQ1Frames(48) type=6
+                            ethQOSRXQ1Dropped(49) type=6
+                            ethQOSRXQ2Frames(50) type=6
+                            ethQOSRXQ2Dropped(51) type=6
+                            ethQOSTXFrames(52) type=6
+                            ethQOSTXDropped(53) type=6
+                          e1t1StatTable(3) type=0
+                            e1t1StatEntry(1) type=0
+                              e1t1LOS(1) type=3
+                              e1t1AIS(2) type=3
+                              e1t1ChannelNr(3) type=3
+                          modemStatistics(4) type=0
+                            modemCountTime(1) type=6
+                            modemErroredBlock(2) type=6
+                            modemErroredSecond(3) type=6
+                            modemSeverelyErroredSecond(4) type=6
+                            modemBackgroundBlockErrror(5) type=6
+                            modemTotalBlockNumber(6) type=6
+                            modemErroredSecondRatio(7) type=2
+                            modemSeverelyErroredSecondRatio(8) type=2
+                            modemBackgroundBlockErrorRatio(9) type=2
+                            modemUptime(10) type=6
+                            modemUnavailtime(11) type=6
+                    safIntegra(7) type=24
+                      integraB(1) type=24
+                        integraBtimestamp(1) type=2 hint=2d-1d-1d,1d:1d:1d.1d,1a1d:1d
+                        integraBradio(2) type=0
+                          integraBradioTxPower(1) type=16 units=dBm
+                          integraBradioTxFrequency(2) type=16 units=kHz
+                          integraBradioRxLevel(3) type=16 units=dBm
+                          integraBradioSide(4) type=3
+                          integraBradioTxMute(5) type=3
+                          integraBradioDuplexShift(6) type=16 units=kHz
+                          integraBradioRxFrequency(7) type=16 units=kHz
+                          integraBradioTemperature(8) type=16 units=C
+                          integraBradioTxMuteDuration(9) type=16 units=s
+                          integraBradioRangesTable(10) type=0
+                            integraBradioRangeEntry(1) type=0
+                              integraBradioRangeEntryIndex(1) type=16
+                              integraBradioRangeDescr(2) type=2 hint=255a
+                              integraBradioRangeTxPower(3) type=16 units=dBm
+                              integraBradioRangeTxFrequency(4) type=16 units=kHz
+                          integraBradioPLL(11) type=3
+                        integraBmodem(3) type=0
+                          integraBmodemAcquireStatus(1) type=3
+                          integraBmodemRadialMse(2) type=16 units=dB
+                          integraBmodemFECload(3) type=2 hint=255a
+                          integraBmodemAcquireLastStatusDetails(4) type=3
+                          integraBmodemTemperature(5) type=16 units=C
+                          integraBmodemBandwidth(6) type=16 units=kHz
+                          integraBmodemModulation(7) type=2 hint=255a
+                          integraBmodemRxModulation(8) type=2 hint=255a
+                          integraBmodemTxModulation(9) type=2 hint=255a
+                          integraBmodemRxCapacity(10) type=16 units=kb/s
+                          integraBmodemTxCapacity(11) type=16 units=kb/s
+                          integraBmodemACMengine(12) type=3
+                          integraBmodemCarrierOffset(13) type=16 units=Hz
+                        integraBsystem(4) type=0
+                          integraBsysCPUtemperature(2) type=16 units=C
+                          integraBsysLicenseExpire(3) type=7 units=s
+                          integraBsysLicenseGenStatus(4) type=3
+                          integraBsysPSUvoltage(5) type=16 units=mV
+                          integraBsysPSUcurrent(6) type=16 units=mA
+                          integraBsysPSUpower(7) type=16 units=mW
+                          integraBsysBoardTemperature(8) type=16 units=C
+                          integraBsysFreeMemory(9) type=16 units=%
+                          integraBsysCPUidle(10) type=16 units=%
+                        integraBethernet(5) type=0
+                          integraBifStatusTable(1) type=0
+                            integraBifPortEntry(1) type=0
+                              integraBifPortStatIndex(1) type=16
+                              integraBifPortStatDescr(2) type=2 hint=255a
+                              integraBifPortType(3) type=3
+                              integraBifPortMtu(4) type=16 units=B
+                              integraBifPortSpeed(5) type=7 units=bps
+                              integraBifPortPhysAddress(6) type=2 hint=1x:
+                              integraBifPortAdminStatus(7) type=3
+                              integraBifPortOperStatus(8) type=3
+                              integraBifPortLastChange(9) type=8
+                              integraBifPortAutoneg(10) type=3
+                              integraBifPortDuplex(11) type=3
+                              integraBifPortSyncEthActive(12) type=3
+                              integraBifPortSyncEthPrio(13) type=16
+                              integraBifPortFlowControl(14) type=3
+                          integraBifStatisticsTable(2) type=0
+                            integraBifPortStcEntry(1) type=0
+                              integraBifPortStcIndex(1) type=16
+                              integraBifPortStcDescr(2) type=2 hint=255a
+                              integraBifTimePassed(3) type=8 units=s/100
+                              integraBifIngressPackets(4) type=11 units=packet
+                              integraBifIngressBytes(5) type=11 units=B
+                              integraBifEgressPackets(6) type=11 units=packet
+                              integraBifEgressBytes(7) type=11 units=B
+                              integraBifEtherStatsMulticastPkts(8) type=11 units=packet
+                              integraBifEtherStatsBroadcastPkts(9) type=11 units=packet
+                              integraBifEtherStatsPkts64Octets(10) type=11 units=packet
+                              integraBifEtherStatsPkts65to127Octets(11) type=11 units=packet
+                              integraBifEtherStatsPkts128to255Octets(12) type=11 units=packet
+                              integraBifEtherStatsPkts256to511Octets(13) type=11 units=packet
+                              integraBifEtherStatsPkts512to1023Octets(14) type=11 units=packet
+                              integraBifEtherStatsPkts1024to1518Octets(15) type=11 units=packet
+                              integraBifEtherStatsOversizePkts(16) type=11 units=packet
+                              integraBifEtherRxOversizePkts(17) type=11 units=packet
+                              integraBifEtherTxOversizePkts(18) type=11 units=packet
+                              integraBifEtherStatsOctets(19) type=11 units=packet
+                              integraBifEtherStatsPkts(20) type=11 units=packet
+                              integraBifEtherStatsTXNoErrors(21) type=11 units=packet
+                              integraBifEtherStatsRXNoErrors(22) type=11 units=packet
+                              integraBifEtherStatsPkts1519to1522Octets(23) type=11 units=packet
+                              integraBifIfInOctets(24) type=11 units=octet
+                              integraBifIfOutOctets(25) type=11 units=octet
+                              integraBifDot1dTpPortInFrames(26) type=11 units=frame
+                              integraBifDot1dTpPortOutFrames(27) type=11 units=frame
+                              integraBifReceivedPkts64Octets(28) type=11 units=packet
+                              integraBifTransmittedPkts64Octets(29) type=11 units=packet
+                              integraBifReceivedPkts65to127Octets(30) type=11 units=packet
+                              integraBifTransmittedPkts65to127Octets(31) type=11 units=packet
+                              integraBifReceivedPkts128to255Octets(32) type=11 units=packet
+                              integraBifTransmittedPkts128to255Octets(33) type=11 units=packet
+                              integraBifReceivedPkts256to511Octets(34) type=11 units=packet
+                              integraBifTransmittedPkts256to511Octets(35) type=11 units=packet
+                              integraBifReceivedPkts512to1023Octets(36) type=11 units=packet
+                              integraBifTransmittedPkts512to1023Octets(37) type=11 units=packet
+                              integraBifReceivedPkts1024to1518Octets(38) type=11 units=packet
+                              integraBifTransmittedPkts1024to1518Octets(39) type=11 units=packet
+                              integraBifIfInBroadcastPkts(40) type=11 units=packet
+                              integraBifIfOutBroadcastPkts(41) type=11 units=packet
+                              integraBifIfInMulticastPkts(42) type=11 units=packet
+                              integraBifIfOutMulticastPkts(43) type=11 units=packet
+                              integraBifDot3InPauseFrames(44) type=11 units=frame
+                              integraBifDot3OutPauseFrames(45) type=11 units=frame
+                              integraBifEtherStatsUndersizePkts(46) type=11 units=packet
+                              integraBifEtherStatsFragments(47) type=11 units=packet
+                              integraBifEtherStatsCRCAlignErrors(48) type=11 units=packet
+                              integraBifEtherStatsJabbers(49) type=11 units=packet
+                              integraBifIngressBPS(50) type=16 units=Bps
+                              integraBifIngressPPS(51) type=16 units=pps
+                              integraBifEgressBPS(52) type=16 units=Bps
+                              integraBifEgressPPS(53) type=16 units=pps
+                              integraBifMAClearnLimitDropIngressPackets(54) type=11 units=packet
+                              integraBifL2cacheDropIngressPackets(55) type=11 units=packet
+                              integraBifEFMdropIngressPackets(56) type=11 units=packet
+                              integraBifEFMdropEgressPackets(57) type=11 units=packet
+                              integraBifSTPdropIngressPackets(58) type=11 units=packet
+                              integraBifSTPdropEgressPackets(59) type=11 units=packet
+                              integraBifMRUdropIngressPackets(60) type=11 units=packet
+                              integraBifMRUdropEgressPackets(61) type=11 units=packet
+                              integraBifFilterDropIngressPackets(62) type=11 units=packet
+                              integraBifFlowClassifierDropIngressPackets(63) type=11 units=packet
+                              integraBifFlowClassifierDropEgressPackets(64) type=11 units=packet
+                              integraBifIllegalSAdropIngressPackets(65) type=11 units=packet
+                              integraBifPortRateLimitDropIngressPackets(66) type=11 units=packet
+                              integraBifPortRateLimitDropIngressBytes(67) type=11 units=packet
+                              integraBifPausePFCframesGeneratedIngressPackets(68) type=11 units=packet
+                              integraBifPausePFCframesGeneratedEgressPackets(69) type=11 units=packet
+                              integraBifRateLimitDropForUnknownUnicastIngressPackets(70) type=11 units=packet
+                              integraBifRateLimitDropForUnknownUnicastIngressBytes(71) type=11 units=B
+                              integraBifRateLimitDropForBroadcastIngressPackets(72) type=11 units=packet
+                              integraBifRateLimitDropForBroadcastIngressBytes(73) type=11 units=B
+                              integraBifRateLimitDropForKnownMulticastIngressPackets(74) type=11 units=packet
+                              integraBifRateLimitDropForKnownMulticastIngressBytes(75) type=11 units=B
+                              integraBifRateLimitDropForUnknownMulticastIngressPackets(76) type=11 units=packet
+                              integraBifRateLimitDropForUnknownMulticastIngressBytes(77) type=11 units=B
+                              integraBifAllCoSQoutPackets(78) type=11 units=packet
+                              integraBifAllCoSQoutBytes(79) type=11 units=B
+                              integraBifAllCoSQdroppedPackets(80) type=11 units=packet
+                              integraBifAllCoSQdroppedBytes(81) type=11 units=B
+                              integraBifProcessedRxPackets(82) type=11 units=packet
+                              integraBifProcessedRxBytes(83) type=11 units=B
+                          integraBifQosStatisticsTable(3) type=0
+                            integraBifCosqEntry(1) type=0
+                              integraBifCosqIfaceIndex(1) type=16
+                              integraBifCosqIfaceDescr(2) type=2 hint=255a
+                              integraBifCosqStatDroppedPacketsCoSQ0(3) type=11 units=packet
+                              integraBifCosqStatDroppedBytesCoSQ0(4) type=11 units=B
+                              integraBifCosqStatGreenDiscardDroppedPacketsCoSQ0(5) type=11 units=packet
+                              integraBifCosqStatYellowDiscardDroppedPacketsCoSQ0(6) type=11 units=packet
+                              integraBifCosqStatOutPacketsCoSQ0(7) type=11 units=packet
+                              integraBifCosqStatOutBytesCoSQ0(8) type=11 units=B
+                              integraBifCosqStatDroppedPacketsCoSQ1(9) type=11 units=packet
+                              integraBifCosqStatDroppedBytesCoSQ1(10) type=11 units=B
+                              integraBifCosqStatGreenDiscardDroppedPacketsCoSQ1(11) type=11 units=packet
+                              integraBifCosqStatYellowDiscardDroppedPacketsCoSQ1(12) type=11 units=packet
+                              integraBifCosqStatOutPacketsCoSQ1(13) type=11 units=packet
+                              integraBifCosqStatOutBytesCoSQ1(14) type=11 units=B
+                              integraBifCosqStatDroppedPacketsCoSQ2(15) type=11 units=packet
+                              integraBifCosqStatDroppedBytesCoSQ2(16) type=11 units=B
+                              integraBifCosqStatGreenDiscardDroppedPacketsCoSQ2(17) type=11 units=packet
+                              integraBifCosqStatYellowDiscardDroppedPacketsCoSQ2(18) type=11 units=packet
+                              integraBifCosqStatOutPacketsCoSQ2(19) type=11 units=packet
+                              integraBifCosqStatOutBytesCoSQ2(20) type=11 units=B
+                              integraBifCosqStatDroppedPacketsCoSQ3(21) type=11 units=packet
+                              integraBifCosqStatDroppedBytesCoSQ3(22) type=11 units=B
+                              integraBifCosqStatGreenDiscardDroppedPacketsCoSQ3(23) type=11 units=packet
+                              integraBifCosqStatYellowDiscardDroppedPacketsCoSQ3(24) type=11 units=packet
+                              integraBifCosqStatOutPacketsCoSQ3(25) type=11 units=packet
+                              integraBifCosqStatOutBytesCoSQ3(26) type=11 units=B
+                              integraBifCosqStatDroppedPacketsCoSQ4(27) type=11 units=packet
+                              integraBifCosqStatDroppedBytesCoSQ4(28) type=11 units=B
+                              integraBifCosqStatGreenDiscardDroppedPacketsCoSQ4(29) type=11 units=packet
+                              integraBifCosqStatYellowDiscardDroppedPacketsCoSQ4(30) type=11 units=packet
+                              integraBifCosqStatOutPacketsCoSQ4(31) type=11 units=packet
+                              integraBifCosqStatOutBytesCoSQ4(32) type=11 units=B
+                              integraBifCosqStatDroppedPacketsCoSQ5(33) type=11 units=packet
+                              integraBifCosqStatDroppedBytesCoSQ5(34) type=11 units=B
+                              integraBifCosqStatGreenDiscardDroppedPacketsCoSQ5(35) type=11 units=packet
+                              integraBifCosqStatYellowDiscardDroppedPacketsCoSQ5(36) type=11 units=packet
+                              integraBifCosqStatOutPacketsCoSQ5(37) type=11 units=packet
+                              integraBifCosqStatOutBytesCoSQ5(38) type=11 units=B
+                              integraBifCosqStatDroppedPacketsCoSQ6(39) type=11 units=packet
+                              integraBifCosqStatDroppedBytesCoSQ6(40) type=11 units=B
+                              integraBifCosqStatGreenDiscardDroppedPacketsCoSQ6(41) type=11 units=packet
+                              integraBifCosqStatYellowDiscardDroppedPacketsCoSQ6(42) type=11 units=packet
+                              integraBifCosqStatOutPacketsCoSQ6(43) type=11 units=packet
+                              integraBifCosqStatOutBytesCoSQ6(44) type=11 units=B
+                              integraBifCosqStatDroppedPacketsCoSQ7(45) type=11 units=packet
+                              integraBifCosqStatDroppedBytesCoSQ7(46) type=11 units=B
+                              integraBifCosqStatGreenDiscardDroppedPacketsCoSQ7(47) type=11 units=packet
+                              integraBifCosqStatYellowDiscardDroppedPacketsCoSQ7(48) type=11 units=packet
+                              integraBifCosqStatOutPacketsCoSQ7(49) type=11 units=packet
+                              integraBifCosqStatOutBytesCoSQ7(50) type=11 units=B
+                        integraBexecuteConfig(6) type=3
+                        integraBneedStore(7) type=3
+                        integraBstoreConfig(8) type=3
+                        integraBnetCfg(9) type=0
+                          integraBnetCfgIPaddress(1) type=5
+                          integraBnetCfgIPmask(2) type=5
+                          integraBnetCfgIPgateway(3) type=5
+                          integraBnetCfgRemoteIPaddress(4) type=5
+                        integraBConformance(10) type=0
+                          integraBCompliances(1) type=0
+                            integraBCompliance(1) type=26
+                          integraBGroups(2) type=0
+                            integraBMiscGroup(1) type=22
+                            integraBRadioGroup(2) type=22
+                            integraBModemGroup(3) type=22
+                            integraBSystemGroup(4) type=22
+                            integraBEthernetGeneralGroup(5) type=22
+                            integraBEthernetMiiPortGroup(6) type=22
+                            integraBEthernetQosQueueGroup(7) type=22
+                      integraW(2) type=24
+                        integraWtimestamp(1) type=2 hint=2d-1d-1d,1d:1d:1d.1d,1a1d:1d
+                        integraWradio(2) type=0
+                          integraWradioTxPower(1) type=16 units=dBm
+                          integraWradioTxFrequency(2) type=16 units=kHz
+                          integraWradioRxLevel(3) type=16 units=dBm
+                          integraWradioSide(4) type=3
+                          integraWradioTxMute(5) type=3
+                          integraWradioDuplexShift(6) type=16 units=kHz
+                          integraWradioRxFrequency(7) type=16 units=kHz
+                          integraWradioTemperature(8) type=16 units=C
+                          integraWradioTxMuteDuration(9) type=16 units=s
+                          integraWradioRangesTable(10) type=0
+                            integraWradioRangeEntry(1) type=0
+                              integraWradioRangeEntryIndex(1) type=16
+                              integraWradioRangeDescr(2) type=2 hint=255a
+                              integraWradioRangeTxPower(3) type=16 units=dBm
+                              integraWradioRangeTxFrequency(4) type=16 units=kHz
+                          integraWradioPLL(11) type=3
+                          integraWradioRxLevelState(12) type=3
+                        integraWmodem(3) type=0
+                          integraWmodemAcquireStatus(1) type=3
+                          integraWmodemMse(2) type=16 units=dB
+                          integraWmodemFecLoad(3) type=2 hint=255a
+                          integraWmodemSyncLoss(4) type=3
+                          integraWmodemBandwidth(6) type=16 units=kHz
+                          integraWmodemModulation(7) type=2 hint=255a
+                          integraWmodemRxModulation(8) type=2 hint=255a
+                          integraWmodemTxModulation(9) type=2 hint=255a
+                          integraWmodemRxCapacity(10) type=16 units=kb/s
+                          integraWmodemTxCapacity(11) type=16 units=kb/s
+                          integraWmodemAcmEngine(12) type=3
+                          integraWmodemSignalQuality(14) type=16 units=%
+                        integraWsystem(4) type=0
+                          integraWsysCPUtemperature(2) type=16 units=C
+                          integraWsysLicenseExpire(3) type=7 units=s
+                          integraWsysLicenseGenStatus(4) type=3
+                          integraWsysPSUvoltage(5) type=16 units=mV
+                          integraWsysPSUcurrent(6) type=16 units=mA
+                          integraWsysPSUpower(7) type=16 units=mW
+                          integraWsysBoardTemperature(8) type=16 units=C
+                          integraWsysFreeMemory(9) type=16 units=%
+                          integraWsysCPUidle(10) type=16 units=%
+                        integraWethernet(5) type=0
+                          integraWifStatusTable(1) type=0
+                            integraWifPortEntry(1) type=0
+                              integraWifPortStatIndex(1) type=16
+                              integraWifPortStatDescr(2) type=2 hint=255a
+                              integraWifPortType(3) type=3
+                              integraWifPortMtu(4) type=16 units=B
+                              integraWifPortSpeed(5) type=7 units=bps
+                              integraWifPortPhysAddress(6) type=2 hint=1x:
+                              integraWifPortAdminStatus(7) type=3
+                              integraWifPortOperStatus(8) type=3
+                              integraWifPortLastChange(9) type=8
+                              integraWifPortAutoneg(10) type=3
+                              integraWifPortDuplex(11) type=3
+                              integraWifPortSyncEthActive(12) type=3
+                              integraWifPortSyncEthPrio(13) type=16
+                              integraWifPortFlowControl(14) type=3
+                          integraWifStatisticsTable(2) type=0
+                            integraWifPortStcEntry(1) type=0
+                              integraWifPortStcIndex(1) type=16
+                              integraWifPortStcDescr(2) type=2 hint=255a
+                              integraWifTimePassed(3) type=8 units=s/100
+                              integraWrxDetected(4) type=11 units=packet
+                              integraWrxDropped(5) type=11 units=packet
+                              integraWtxDetected(6) type=11 units=packet
+                              integraWtxDropped(7) type=11 units=packet
+                              integraWrxBytes(8) type=11 units=B
+                              integraWtxBytes(9) type=11 units=B
+                              integraWrx64Frames(10) type=11 units=frame
+                              integraWrx65to127Frames(11) type=11 units=frame
+                              integraWrx128to255Frames(12) type=11 units=frame
+                              integraWrx256to511Frames(13) type=11 units=frame
+                              integraWrx512to1023Frames(14) type=11 units=frame
+                              integraWrx1024toMaxFrames(15) type=11 units=frame
+                              integraWrxUsizeFrames(16) type=11 units=frame
+                              integraWrxOsizeFrames(17) type=11 units=frame
+                              integraWtx64Frames(18) type=11 units=frame
+                              integraWtx65to127Frames(19) type=11 units=frame
+                              integraWtx128to255Frames(20) type=11 units=frame
+                              integraWtx256to511Frames(21) type=11 units=frame
+                              integraWtx512to1023Frames(22) type=11 units=frame
+                              integraWtx1024toMaxFrames(23) type=11 units=frame
+                              integraWtxUsizeFrames(24) type=11 units=frame
+                              integraWtxOsizeFrames(25) type=11 units=frame
+                              integraWrxGoodFrames(26) type=11 units=frame
+                              integraWrxErrors(27) type=11 units=packet
+                              integraWrxFifoErr(28) type=11 units=packet
+                              integraWrxCRCErrors(29) type=11 units=packet
+                              integraWrxBcastFrames(30) type=11 units=frame
+                              integraWrxMcastFrames(31) type=11 units=frame
+                              integraWrxCntrlFrames(32) type=11 units=frame
+                              integraWrxLenErrors(33) type=11 units=packet
+                              integraWrxVlanFrames(34) type=11 units=frame
+                              integraWrxPauseFrames(35) type=11 units=frame
+                              integraWrxOpErrors(36) type=11 units=packet
+                              integraWrxFrameErrors(37) type=11 units=frame
+                              integraWtxGoodFrames(38) type=11 units=frame
+                              integraWtxErrors(39) type=11 units=packet
+                              integraWtxFifoErr(40) type=11 units=packet
+                              integraWtxBcastFrames(41) type=11 units=frame
+                              integraWtxMcastFrames(42) type=11 units=frame
+                              integraWtxUrunErrors(43) type=11 units=packet
+                              integraWtxCntrlFrames(44) type=11 units=frame
+                              integraWtxVlanFrames(45) type=11 units=frame
+                              integraWtxPauseFrames(46) type=11 units=frame
+                              integraWtxSingleCollisions(47) type=11 units=packet
+                              integraWtxMultiCollisions(48) type=11 units=packet
+                              integraWtxDeferred(49) type=11 units=packet
+                              integraWtxLateCollisions(50) type=11 units=packet
+                              integraWtxExcessCollisions(51) type=11 units=packet
+                              integraWtxExcessDeferral(52) type=11 units=packet
+                              integraWtxAlignErrors(53) type=11 units=packet
+                              integraWtxCarrierErrors(54) type=11 units=packet
+                              integraWtxCollisions(55) type=11 units=packet
+                        integraWexecuteConfig(6) type=3
+                        integraWneedStore(7) type=3
+                        integraWstoreConfig(8) type=3
+                        integraWnetCfg(9) type=0
+                          integraWnetCfgIPaddress(1) type=5
+                          integraWnetCfgIPmask(2) type=5
+                          integraWnetCfgIPgateway(3) type=5
+                          integraWnetCfgRemoteIPaddress(4) type=5
+                        integraWConformance(10) type=0
+                          integraWCompliances(1) type=0
+                            integraWCompliance(1) type=26
+                          integraWGroups(2) type=0
+                            integraWMiscGroup(1) type=22
+                            integraWRadioGroup(2) type=22
+                            integraWModemGroup(3) type=22
+                            integraWSystemGroup(4) type=22
+                            integraWEthernetGeneralGroup(5) type=22
+                            integraWEthernetMiiPortGroup(6) type=22
+                microwave(2) type=0
+        security(5) type=0
+        snmpV2(6) type=0
+          snmpDomains(1) type=0
+          snmpProxys(2) type=0
+          snmpModules(3) type=0
+  zeroDotZero(0) type=27

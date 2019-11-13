@@ -1,0 +1,1692 @@
+  org(3) type=0
+    dod(6) type=0
+      internet(1) type=0
+        directory(1) type=0
+        mgmt(2) type=0
+          mib-2(1) type=0
+            transmission(10) type=0
+            inetAddressMIB(76) type=24
+        experimental(3) type=0
+        private(4) type=0
+          enterprises(1) type=0
+            mot(161) type=0
+              whispRoot(19) type=0
+                whispReg(1) type=0
+                  whispModules(1) type=0
+                    whispGlobalRegModule(1) type=24
+                    whispTextualConventionsModule(3) type=24
+                    cmmIIIMibModule(15) type=24
+                whispGeneric(2) type=0
+                whispProducts(3) type=0
+                  whispAps(1) type=0
+                  whispSm(2) type=0
+                  whispBox(3) type=0
+                  whispCMM(4) type=0
+                    cmmGroups(1) type=0
+                      cmmSwitchGroup(1) type=22
+                      cmmConfigGroup(2) type=22
+                      cmmStatusGroup(3) type=22
+                      cmmGPSGroup(4) type=22
+                      cmmUserTableGroup(5) type=22
+                    cmmSwitch(2) type=0
+                      cmmSwitchTable(1) type=0
+                        cmmSwitchEntry(1) type=0
+                          portNumber(1) type=3
+                          rxDropPkts(2) type=6
+                          rxOctets(3) type=11
+                          rxBroadcastPkts(4) type=6
+                          rxMulticastPkts(5) type=6
+                          rxSAChanges(6) type=6
+                          rxUndersizePkts(7) type=6
+                          rxOversizePkts(8) type=6
+                          rxFragments(9) type=6
+                          rxJabbers(10) type=6
+                          rxUnicastPkts(11) type=6
+                          rxAlignmentErrors(12) type=6
+                          rxFCSErrors(13) type=6
+                          rxGoodOctets(14) type=11
+                          rxExcessSizeDisc(15) type=6
+                          rxPausePkts(16) type=6
+                          rxSymbolErrors(17) type=6
+                          txDropPkts(18) type=6
+                          txOctets(19) type=11
+                          txBroadcastPkts(20) type=6
+                          txMulticastPkts(21) type=6
+                          txCollisions(22) type=6
+                          txUnicastPkts(23) type=6
+                          txSingleCollision(24) type=6
+                          txMultipleCollision(25) type=6
+                          txDeferredTransmit(26) type=6
+                          txLateCollision(27) type=6
+                          txExcessiveCollision(28) type=6
+                          txPausePkts(29) type=6
+                          txFrameInDisc(30) type=6
+                          pkts64Octets(31) type=6
+                          pkts65to127Octets(32) type=6
+                          pkts128to255Octets(33) type=6
+                          pkts256to511Octets(34) type=6
+                          pkts512to1023Octets(35) type=6
+                          pkts1024to1522Octets(36) type=6
+                      portMirrorEnable(2) type=3
+                      mirrorCapturePort(3) type=3
+                      cmmSwitchMirrorSrcPortsTable(4) type=0
+                        cmmSwitchMirrorSrcPortsEntry(1) type=0
+                          mirSrcPortNumber(1) type=3
+                          mirSrcRxEnable(2) type=3
+                          mirSrcTxEnable(3) type=3
+                    cmmConfig(3) type=0
+                      gpsTimingPulse(1) type=3
+                      lan1Ip(2) type=5
+                      lan1SubnetMask(3) type=5
+                      defaultGateway(4) type=5
+                      port1PowerCtr(5) type=3
+                      port2PowerCtr(6) type=3
+                      port3PowerCtr(7) type=3
+                      port4PowerCtr(8) type=3
+                      port5PowerCtr(9) type=3
+                      port6PowerCtr(10) type=3
+                      port7PowerCtr(11) type=3
+                      port8PowerCtr(12) type=3
+                      displayOnlyAccess(13) type=2 hint=255a
+                      fullAccess(14) type=2 hint=255a
+                      displayOnlyStatus(15) type=2 hint=255a
+                      fullAccessStatus(16) type=2 hint=255a
+                      webAutoUpdate(17) type=3 units=Seconds
+                      port1Config(18) type=3
+                      port2Config(19) type=3
+                      port3Config(20) type=3
+                      port4Config(21) type=3
+                      port5Config(22) type=3
+                      port6Config(23) type=3
+                      port7Config(24) type=3
+                      port8Config(25) type=3
+                      port1Description(26) type=2 hint=255a
+                      port2Description(27) type=2 hint=255a
+                      port3Description(28) type=2 hint=255a
+                      port4Description(29) type=2 hint=255a
+                      port5Description(30) type=2 hint=255a
+                      port6Description(31) type=2 hint=255a
+                      port7Description(32) type=2 hint=255a
+                      port8Description(33) type=2 hint=255a
+                      snmpTrap1(34) type=5
+                      snmpTrap2(35) type=5
+                      snmpTrap3(36) type=5
+                      snmpTrap4(37) type=5
+                      snmpTrap5(38) type=5
+                      snmpTrap6(39) type=5
+                      snmpTrap7(40) type=5
+                      snmpTrap8(41) type=5
+                      snmpTrap9(42) type=5
+                      snmpTrap10(43) type=5
+                      vlanTagEnable(44) type=3
+                      vlanTagId(45) type=3
+                      port1Uplink(46) type=3
+                      port2Uplink(47) type=3
+                      port3Uplink(48) type=3
+                      port4Uplink(49) type=3
+                      port5Uplink(50) type=3
+                      port6Uplink(51) type=3
+                      port7Uplink(52) type=3
+                      port8Uplink(53) type=3
+                      rebootIfRequired(54) type=3
+                      port1VlanConf(55) type=3
+                      port2VlanConf(56) type=3
+                      port3VlanConf(57) type=3
+                      port4VlanConf(58) type=3
+                      port5VlanConf(59) type=3
+                      port6VlanConf(60) type=3
+                      port7VlanConf(61) type=3
+                      port8VlanConf(62) type=3
+                      port1PwrReset(63) type=3
+                      port2PwrReset(64) type=3
+                      port3PwrReset(65) type=3
+                      port4PwrReset(66) type=3
+                      port5PwrReset(67) type=3
+                      port6PwrReset(68) type=3
+                      port7PwrReset(69) type=3
+                      port8PwrReset(70) type=3
+                      snmpReadOnly(71) type=3
+                      snmpCommunityString(72) type=2 hint=255a
+                      snmpAccessSubnet(73) type=2 hint=255a
+                      snmpAccessSubnet2(74) type=2 hint=255a
+                      snmpAccessSubnet3(75) type=2 hint=255a
+                      snmpAccessSubnet4(76) type=2 hint=255a
+                      snmpAccessSubnet5(77) type=2 hint=255a
+                      snmpAccessSubnet6(78) type=2 hint=255a
+                      snmpAccessSubnet7(79) type=2 hint=255a
+                      snmpAccessSubnet8(80) type=2 hint=255a
+                      snmpAccessSubnet9(81) type=2 hint=255a
+                      snmpAccessSubnet10(82) type=2 hint=255a
+                      port1Management(83) type=3
+                      port2Management(84) type=3
+                      port3Management(85) type=3
+                      port4Management(86) type=3
+                      port5Management(87) type=3
+                      port6Management(88) type=3
+                      port7Management(89) type=3
+                      port8Management(90) type=3
+                      sessionTimeout(91) type=3
+                      siteInfoViewable(92) type=3
+                      ipAccessFilterEnable(93) type=3
+                      allowedIPAccess1(94) type=5
+                      allowedIPAccess2(95) type=5
+                      allowedIPAccess3(96) type=5
+                      verifyGPSChecksum(97) type=3
+                      cmm3SnmpGPSSyncTrapEnable(98) type=3
+                    cmmStatus(4) type=0
+                      cmmPortTable(1) type=0
+                        cmmPortEntry(1) type=0
+                          portIndex(1) type=3
+                          linkStatus(2) type=3
+                          linkSpeed(3) type=3
+                          duplexStatus(4) type=3
+                          powerStatus(5) type=3
+                          uplinkStatus(6) type=3
+                          managementStatus(7) type=3
+                      deviceType(2) type=2 hint=255a
+                      pldVersion(3) type=2 hint=255a
+                      softwareVersion(4) type=2 hint=255a
+                      systemTime(5) type=2 hint=255a
+                      upTime(6) type=2 hint=255a
+                      satellitesVisible(7) type=2 hint=255a
+                      satellitesTracked(8) type=2 hint=255a
+                      latitude(9) type=2 hint=255a
+                      longitude(10) type=2 hint=255a
+                      height(11) type=2 hint=255a
+                      trackingMode(12) type=2 hint=255a
+                      syncStatus(13) type=2 hint=255a
+                      macAddress(14) type=2 hint=255a
+                    cmmGps(5) type=0
+                      gpsTrackingMode(1) type=2 hint=255a
+                      gpsTime(2) type=2 hint=255a
+                      gpsDate(3) type=2 hint=255a
+                      gpsSatellitesVisible(4) type=2 hint=255a
+                      gpsSatellitesTracked(5) type=2 hint=255a
+                      gpsHeight(6) type=2 hint=255a
+                      gpsAntennaConnection(7) type=2 hint=255a
+                      gpsLatitude(8) type=2 hint=255a
+                      gpsLongitude(9) type=2 hint=255a
+                      gpsInvalidMsg(10) type=2 hint=255a
+                      gpsRestartCount(11) type=3
+                      gpsReceiverInfo(12) type=2 hint=255a
+                      gpsReInitCount(13) type=2 hint=255a
+                    cmmEventLog(6) type=0
+                      eventLog(1) type=2 hint=2048a
+                      ntpLog(2) type=2 hint=2048a
+                    cmmControls(7) type=0
+                      reboot(1) type=3
+                      clearEventLog(2) type=3
+                    cmmUserTable(8) type=0
+                      cmmUserEntry(1) type=0
+                        entryIndex(1) type=3
+                        userLoginName(2) type=2 hint=255a
+                        userPswd(3) type=2 hint=255a
+                        accessLevel(4) type=3
+                  whispPlv(5) type=0
+                  whispCMM4(6) type=0
+                  whispPlvModem(7) type=0
+                  whispPlvGateway(8) type=0
+                  whispPlvRepeater(9) type=0
+                  whispPlvBridge(10) type=0
+                canopySnmpAgent(250) type=0
+                  ucos(256) type=0
+                prizm(1000) type=0
+                prizmSnmpAgent(1250) type=0
+            cambium(17713) type=0
+              ptp(1) type=0
+              ptmp(2) type=0
+              ptp650(7) type=0
+                dfs(3) type=0
+                  dfsTableNumber(1) type=3
+                  dfsTable(2) type=0
+                    dfsTableEntry(1) type=0
+                      dfsTableIndex(1) type=3
+                      dfsMeans(2) type=16
+                      dfsNineNinePointNinePercentiles(3) type=16
+                      dfsPeaks(4) type=16
+                  extendedSpectrumScanning(3) type=3
+                bridge(4) type=0
+                  localPacketFiltering(1) type=3
+                configuration(5) type=0
+                  iPv4Address(1) type=5
+                  subnetMask(2) type=5
+                  gatewayIPAddress(3) type=5
+                  targetMACAddress(4) type=2
+                  masterSlaveMode(5) type=3
+                  maximumTransmitPower(6) type=3
+                  antennaGain(7) type=3
+                  cableLoss(8) type=3
+                  eIRP(9) type=16
+                  channelBandwidth(11) type=3
+                  linkName(14) type=2 hint=255a
+                  siteName(15) type=2 hint=255a
+                  accessMethod(16) type=3
+                  groupID(17) type=3
+                  iPv6Address(18) type=2 hint=255a
+                  iPVersion(20) type=3
+                  iPv6AutoConfiguredLinkLocalAddress(21) type=2 hint=255a
+                  iPv6PrefixLength(22) type=3
+                  iPv6GatewayAddress(23) type=2 hint=255a
+                  remoteInternetAddressType(24) type=3
+                  remoteInternetAddress(25) type=2
+                  subbandLowestFrequency(26) type=16
+                  subbandHighestFrequency(27) type=16
+                  enableTransmission(28) type=3
+                ethernet(6) type=0
+                  mainPSUPortAutoNegotiation(1) type=3
+                  mainPSUPortAutoNegAdvertisement(2) type=12
+                  mainPSUPortAutoMdix(3) type=3
+                  mainPSUPortStatus(4) type=3
+                  mainPSUPortSpeedAndDuplex(5) type=3
+                  dataPortWirelessDownAlert(6) type=3
+                  useVLANForManagementInterfaces(7) type=3
+                  vLANManagementPriority(8) type=3
+                  vLANManagementVID(11) type=3
+                  auxPortStatus(12) type=3
+                  auxPortSpeedAndDuplex(13) type=3
+                  ethernetPriorityTableNumber(14) type=3
+                  ethernetPriorityTable(15) type=0
+                    ethernetPriorityTableEntry(1) type=0
+                      ethernetPriorityTableIndex(1) type=3
+                      ethernetPriorityQueueMapping(2) type=3
+                  l2CPPriorityTableNumber(16) type=3
+                  l2CPPriorityTable(17) type=0
+                    l2CPPriorityTableEntry(1) type=0
+                      l2CPPriorityTableIndex(1) type=3
+                      l2CPPriorityQueueMapping(2) type=3
+                  iPDSCPPriorityTableNumber(18) type=3
+                  iPDSCPPriorityTable(19) type=0
+                    iPDSCPPriorityTableEntry(1) type=0
+                      iPDSCPPriorityTableIndex(1) type=3
+                      iPDSCPPriorityQueueMapping(2) type=3
+                  mPLSTCPriorityTableNumber(20) type=3
+                  mPLSTCPriorityTable(21) type=0
+                    mPLSTCPriorityTableEntry(1) type=0
+                      mPLSTCPriorityTableIndex(1) type=3
+                      mPLSTCPriorityQueueMapping(2) type=3
+                  managementPortWirelessDownAlert(23) type=3
+                  qOSPriorityScheme(24) type=3
+                  unknownNetworkPriorityQueueMapping(25) type=3
+                  dSCPManagementPriority(26) type=3
+                  dataBridgingStatus(27) type=3
+                  mainPSUPortAllocation(28) type=3
+                  auxPortAllocation(29) type=3
+                  sFPPortAllocation(30) type=3
+                  dataPortPauseFrames(31) type=3
+                  sFPPortAutoNegotiation(32) type=3
+                  sFPPortAutoNegAdvertisement(33) type=12
+                  sFPPortAutoMdix(34) type=3
+                  sFPPortStatus(35) type=3
+                  sFPPortSpeedAndDuplex(36) type=3
+                  auxPortPowerOverEthernetOutput(37) type=3
+                  auxPortPowerOverEthernetOutputStatus(38) type=3
+                  syncETracking(39) type=3
+                  syncEEquipmentClock(40) type=3
+                  mainPSUPortQLRxOverwrite(41) type=3
+                  mainPSUPortSSMTx(42) type=3
+                  sFPPortSSMTx(43) type=3
+                  auxPortSSMTx(44) type=3
+                  syncETrackingState(45) type=3
+                  mainPSUPortQLRx(46) type=3
+                  auxPortQLRx(47) type=3
+                  sFPPortQLRx(48) type=3
+                  mainPSUPortQLTx(49) type=3
+                  auxPortQLTx(50) type=3
+                  sFPPortQLTx(51) type=3
+                  mainPSUPortSyncEMasterSlaveStatus(52) type=3
+                  auxPortSyncEMasterSlaveStatus(53) type=3
+                  sFPPortSyncEMasterSlaveStatus(54) type=3
+                  mainPSUPortGigabitMasterSlaveStatus(55) type=3
+                  auxPortGigabitMasterSlaveStatus(56) type=3
+                  sFPPortGigabitMasterSlaveStatus(57) type=3
+                  transparentClock(58) type=3
+                  transparentClockVLAN(59) type=3
+                  transparentClockVID(60) type=3
+                  mainPSUPortAcceptedQLRx(61) type=3
+                  auxPortAcceptedQLRx(62) type=3
+                  sFPPortAcceptedQLRx(63) type=3
+                  mainPSUPortSyncERxStatus(64) type=3
+                  auxPortSyncERxStatus(65) type=3
+                  sFPPortSyncERxStatus(66) type=3
+                  nIDULanPortStatus(67) type=3
+                  nIDULanPortSpeedAndDuplex(68) type=3
+                  oOBPriorityQueueMapping(69) type=3
+                  nIDULanPortAutoNegotiation(70) type=3
+                  nIDULanPortAutoNegAdvertisement(71) type=12
+                  nIDULanPortAutoMdix(72) type=3
+                  nIDULanPortGigabitMasterSlaveStatus(73) type=3
+                  txMABFrames(74) type=16
+                  managementNetworkAccessEnabled(75) type=3
+                  secondDataPortPauseFrames(76) type=3
+                  secondDataBridgingStatus(80) type=3
+                  transparentClockPort(81) type=3
+                tDM(7) type=0
+                  tDMInterfaceControl(1) type=3
+                  tDMInterfaceStatus(2) type=3
+                  tDMEnabledChannels(3) type=3
+                  tdmTableNumber(4) type=3
+                  tdmTable(5) type=0
+                    tdmTableEntry(1) type=0
+                      tdmTableIndex(1) type=3
+                      tDMChannelStatus(2) type=3
+                      tDMChannelLineCode(3) type=3
+                      tDMChannelCableLength(4) type=3
+                      tDMChannelLoopback(5) type=3
+                  tDMConfigurationMismatch(6) type=3
+                  lowestTDMModulationMode(7) type=3
+                license(8) type=0
+                  regulatoryBand(1) type=3
+                  productVariant(2) type=3
+                  productName(3) type=2 hint=255a
+                  frequencyVariant(5) type=3
+                  sNMPv3Enable(9) type=3
+                  licenseVersion(12) type=3
+                  licenseUnitSerialNumber(13) type=2 hint=255a
+                  licenseIssueNumber(15) type=3
+                  licenseCountry(16) type=2 hint=255a
+                  licenseNumberOfRegulatoryBands(17) type=3
+                  licenseRegulatoryBandsTable(18) type=0
+                    licenseRegulatoryBandsTableEntry(1) type=0
+                      licenseRegulatoryBandsTableIndex(1) type=3
+                      licenseRegulatoryBandsList(2) type=3
+                  licenseBandwidthCap(20) type=3
+                  licenseEncryption(21) type=3
+                  licenseSecurityLevel(22) type=3
+                  licenseGroupAccess(23) type=3
+                  licenseOOBManagementSupport(24) type=3
+                  licenseSFPPortSupport(25) type=3
+                  licenseAuxiliaryPortSupport(26) type=3
+                  licenseCapacity(27) type=3
+                  licenseMaxNumberOfTDMChannels(28) type=3
+                  licenseIEEE1588Support(29) type=3
+                  licenseSyncESupport(30) type=3
+                  licenseIPv6Support(31) type=3
+                  licenseMinimumFirmwareVersion(32) type=2 hint=255a
+                  licenseFullCapabilityTrialStatus(33) type=3
+                  licenseRemainingTrialPeriod(34) type=3
+                  licenseRemainingTrialPeriodAlarm(35) type=3
+                  capacityVariantMismatch(36) type=3
+                  licenseTDDSyncSupport(37) type=3
+                  licenseMaxLinkRange(38) type=3
+                  licenseTrialPeriod(39) type=3
+                  licenseRARSupport(40) type=3
+                management(9) type=0
+                  targetRange(1) type=3
+                  rangingMode(2) type=3
+                  installStatus(3) type=3
+                  installArmState(4) type=3
+                  tFTPServerPortNumber(6) type=3
+                  tFTPSoftwareUpgradeFileName(7) type=2 hint=255a
+                  tFTPStartSoftwareUpgrade(8) type=16
+                  tFTPSoftwareUpgradeStatus(9) type=3
+                  tFTPSoftwareUpgradeStatusText(10) type=2 hint=255a
+                  tFTPSoftwareUpgradeStatusAdditionalText(11) type=2 hint=255a
+                  hTTPAccessEnabled(12) type=3
+                  telnetAccessEnabled(13) type=3
+                  hTTPPortNumber(14) type=3
+                  hTTPSPortNumber(15) type=3
+                  telnetPortNumber(16) type=3
+                  hTTPSAccessEnabled(17) type=3
+                  tFTPServerInternetAddressType(18) type=3
+                  tFTPServerInternetAddress(19) type=2
+                  lowestDataModulationMode(20) type=3
+                  lowestSecondDataModulationMode(21) type=3
+                phyControl(10) type=0
+                  linkSymmetry(1) type=3
+                  userConfiguredMaxModulationMode(2) type=3
+                  linkModeOptimization(3) type=3
+                  txColorCode(4) type=3
+                  rxColorCode(5) type=3
+                  remoteMaximumTransmitPower(6) type=3
+                phyStatus(12) type=0
+                  linkLoss(1) type=3
+                  receivePower(2) type=16
+                  vectorError(3) type=16
+                  transmitPower(4) type=16
+                  receiveChannel(5) type=3
+                  transmitChannel(6) type=3
+                  receiveFreqMHz(7) type=3
+                  transmitFreqMHz(8) type=3
+                  signalStrengthRatio(9) type=16
+                  receiveFreqKHz(10) type=3
+                  transmitFreqKHz(11) type=3
+                  rawReceivePower(12) type=16
+                  range(13) type=16
+                  receiveModulationMode(14) type=3
+                  transmitModulationMode(15) type=3
+                  searchState(16) type=3
+                alarms(13) type=0
+                  unitOutOfCalibration(1) type=3
+                  incompatibleRegulatoryBands(4) type=3
+                  noWirelessChannelAvailable(5) type=3
+                  wirelessLinkDisabledWarning(6) type=3
+                  mainPSUPortDisabledWarning(7) type=3
+                  sFPError(8) type=3
+                  mainPSUPortConfigurationMismatch(9) type=3
+                  incompatibleMasterAndSlave(10) type=3
+                  tDDSynchronizationStatus(11) type=3
+                  auxPortDisabledWarning(12) type=3
+                  tDDSynchronizationAlarm(13) type=3
+                  linkModeOptimizationMismatch(14) type=3
+                  auxPortConfigurationMismatch(15) type=3
+                  secureModeAlarm(16) type=3
+                  dataBridgingStatusAlarm(17) type=3
+                  sFPPortDisabledWarning(18) type=3
+                  sFPPortConfigurationMismatch(19) type=3
+                  maxLinkRangeExceeded(20) type=3
+                  nIDULanPortDisabledWarning(21) type=3
+                  nIDULanPortConfigurationMismatch(22) type=3
+                  portAllocationMismatch(23) type=3
+                  secondDataBridgingStatusAlarm(24) type=3
+                  transparentClockSourcePortAlarm(25) type=3
+                smtp(15) type=0
+                  sMTPEmailAlert(1) type=3
+                  sMTPServerPortNumber(3) type=3
+                  sMTPSourceEmailAddress(4) type=2 hint=255a
+                  sMTPDestinationEmailAddress(5) type=2 hint=255a
+                  sMTPEnabledMessages(6) type=12
+                  sMTPServerInternetAddressType(7) type=3
+                  sMTPServerInternetAddress(8) type=2
+                snmpControl(16) type=0
+                  sNMPPortNumber(1) type=3
+                  sNMPCommunityString(2) type=2 hint=255a
+                  sNMPTrapTableNumber(3) type=3
+                  sNMPTrapTable(4) type=0
+                    sNMPTrapTableEntry(1) type=0
+                      sNMPTrapTableIndex(1) type=3
+                      sNMPTrapPortNumber(3) type=3
+                      sNMPTrapInternetAddressType(4) type=3
+                      sNMPTrapInternetAddress(5) type=2
+                      sNMPTrapReceiverEnabled(6) type=3
+                  sNMPTrapVersion(5) type=3
+                  sNMPEnabledTraps(6) type=12
+                  enabledDiagnosticAlarms(7) type=12
+                  sNMPSendAllTrapsAtStartup(8) type=3
+                sntp(17) type=0
+                  sNTPState(1) type=3
+                  sNTPPollInterval(4) type=3
+                  sNTPSync(5) type=3
+                  sNTPLastSync(6) type=16
+                  systemClock(7) type=16
+                  timeZone(8) type=3
+                  daylightSaving(9) type=3
+                  sNTPPrimaryServer(10) type=3
+                  sNTPPrimaryServerDeadTime(11) type=3
+                  sNTPServerRetries(12) type=3
+                  sNTPServerTimeout(13) type=3
+                  sNTPServerTableNumber(14) type=3
+                  sNTPServerTable(15) type=0
+                    sNTPServerTableEntry(1) type=0
+                      sNTPServerTableIndex(1) type=3
+                      sNTPServerPortNumber(3) type=3
+                      sNTPServerStatus(4) type=2 hint=255a
+                      sNTPServerInternetAddressType(5) type=3
+                      sNTPServerInternetAddress(6) type=2
+                reset(18) type=0
+                  systemReset(1) type=3
+                versions(19) type=0
+                  softwareVersion(1) type=2 hint=255a
+                  hardwareVersion(2) type=2 hint=255a
+                  secondarySoftwareVersion(3) type=2 hint=255a
+                  bootVersion(4) type=2 hint=255a
+                pubStats(20) type=0
+                  receiveDataRate(1) type=16
+                  transmitDataRate(2) type=16
+                  aggregateDataRate(3) type=16
+                  wirelessLinkAvailability(4) type=3
+                  wirelessLinkStatus(5) type=3
+                  byteErrorRatio(6) type=16
+                  receiveModulationModeDetail(7) type=3
+                  dataBridgingAvailability(8) type=3
+                encryption(22) type=0
+                  encryptionAlgorithm(1) type=3
+                tDDControl(23) type=0
+                  tDDSynchronizationMode(1) type=3
+                syslogControl(24) type=0
+                  syslogClient(1) type=3
+                  syslogState(2) type=3
+                aAAControl(25) type=0
+                  userTableNumber(1) type=3
+                  userTable(2) type=0
+                    userTableEntry(1) type=0
+                      userTableIndex(1) type=3
+                      userName(2) type=2 hint=255a
+                      userRole(3) type=3
+                      userEnabled(4) type=3
+                      userPassword(5) type=2 hint=255a
+                routerProtocols(26) type=0
+                  microwaveAdaptiveBandwidth(1) type=3
+                  mABNominalModulationMode(2) type=3
+                  mABTransmissionInterval(3) type=3
+                  mABHoldoffPeriod(4) type=3
+                  mABMaintenanceLevel(5) type=3
+                  useVLANForMABProtocol(6) type=3
+                  mABProtocolVID(7) type=3
+                  mABProtocolVLANPriority(8) type=3
+                  mABState(9) type=3
+                  mABNominalTransmitCapacity(10) type=3
+                  mABCurrentTransmitCapacity(11) type=3
+                cableDiagnostics(27) type=0
+                  cableDiagnosticsPorts(1) type=12
+                  cableDiagnosticsControl(2) type=3
+                  cableDiagnosticsWarning(3) type=3
+                  cableDiagnosticsResultTableNumber(4) type=3
+                  cableDiagnosticsResultTable(5) type=0
+                    cableDiagnosticsResultTableEntry(1) type=0
+                      cableDiagnosticsResultTableIndex(1) type=3
+                      cableDiagnosticsResultsDateTime(2) type=16
+                      cableDiagPair1Results(3) type=3
+                      cableDiagPair1Distance(4) type=16
+                      cableDiagPair2Results(5) type=3
+                      cableDiagPair2Distance(6) type=16
+                      cableDiagPair3Results(7) type=3
+                      cableDiagPair3Distance(8) type=16
+                      cableDiagPair4Results(9) type=3
+                      cableDiagPair4Distance(10) type=16
+                supplementary(96) type=0
+                  longitude(1) type=2 hint=255a
+                  latitude(2) type=2 hint=255a
+                  altitude(3) type=16
+                ptpCompliance(97) type=26
+                ptpGroups(98) type=0
+                  dfsGroup(3) type=22
+                  bridgeGroup(4) type=22
+                  configurationGroup(5) type=22
+                  ethernetGroup(6) type=22
+                  tDMGroup(7) type=22
+                  licenseGroup(8) type=22
+                  managementGroup(9) type=22
+                  phyControlGroup(10) type=22
+                  phyStatusGroup(12) type=22
+                  alarmsGroup(13) type=22
+                  smtpGroup(15) type=22
+                  snmpControlGroup(16) type=22
+                  sntpGroup(17) type=22
+                  resetGroup(18) type=22
+                  versionsGroup(19) type=22
+                  pubStatsGroup(20) type=22
+                  encryptionGroup(22) type=22
+                  tDDControlGroup(23) type=22
+                  syslogControlGroup(24) type=22
+                  aAAControlGroup(25) type=22
+                  routerProtocolsGroup(26) type=22
+                  cableDiagnosticsGroup(27) type=22
+                  supplementaryGroup(96) type=22
+                  notificationsGroup(99) type=23
+                ptpTraps(99) type=0
+                  ptpTrapPrefix(0) type=0
+                    channelChangeTrap(1) type=21
+                    dfsImpulsiveInterferenceTrap(2) type=21
+                    mainPSUPortStatusTrap(3) type=21
+                    mainPSUPortDisabledWarningTrap(4) type=21
+                    mainPSUPortConfigurationMismatchTrap(5) type=21
+                    auxPortStatusTrap(6) type=21
+                    auxPortDisabledWarningTrap(7) type=21
+                    regulatoryBandTrap(8) type=21
+                    installStatusTrap(9) type=21
+                    installArmStateTrap(10) type=21
+                    unitOutOfCalibrationTrap(11) type=21
+                    auxPortPowerOverEthernetOutputStatusTrap(12) type=21
+                    incompatibleRegulatoryBandsTrap(14) type=21
+                    noWirelessChannelAvailableTrap(15) type=21
+                    wirelessLinkDisabledWarningTrap(16) type=21
+                    auxPortConfigurationMismatchTrap(17) type=21
+                    sFPErrorTrap(18) type=21
+                    sFPPortStatusTrap(19) type=21
+                    incompatibleMasterAndSlaveTrap(20) type=21
+                    sNTPSyncTrap(21) type=21
+                    tDDSynchronizationAlarmTrap(22) type=21
+                    sFPPortDisabledWarningTrap(23) type=21
+                    sFPPortConfigurationMismatchTrap(24) type=21
+                    linkModeOptimizationMismatchTrap(25) type=21
+                    tDMInterfaceStatusTrap(26) type=21
+                    tDMChannelStatusTrap(27) type=21
+                    tDMChannelLoopbackTrap(28) type=21
+                    nIDULanPortStatusTrap(29) type=21
+                    syslogStateTrap(30) type=21
+                    syslogLocalNearlyFullTrap(31) type=21
+                    syslogLocalWrappedTrap(32) type=21
+                    syslogClientTrap(33) type=21
+                    secureModeAlarmTrap(34) type=21
+                    dataBridgingStatusAlarmTrap(35) type=21
+                    licenseRemainingTrialPeriodAlarmTrap(36) type=21
+                    capacityVariantMismatchTrap(37) type=21
+                    maxLinkRangeExceededTrap(38) type=21
+                    tDMConfigurationMismatchTrap(39) type=21
+                    nIDULanPortDisabledWarningTrap(40) type=21
+                    nIDULanPortConfigurationMismatchTrap(41) type=21
+                    secondDataBridgingStatusAlarmTrap(42) type=21
+                    transparentClockSourcePortAlarmTrap(43) type=21
+                    portAllocationMismatchTrap(44) type=21
+              pmpMibTree(21) type=24
+                cambiumpmp80211SystemTraps(0) type=0
+                  cambiumpmp80211SoftwareUpdateStatusTrap(1) type=21
+                  cambiumpmp80211GPSSyncStatusTrap(2) type=21
+                  cambiumpmp80211SystemUpTrap(3) type=21
+                  cambiumpmp80211DFSStatusTrap(4) type=21
+                  cambiumpmp80211JSONCfgImportTrap(5) type=21
+                  cambiumpmp80211JSONCfgExportTrap(6) type=21
+                  cambiumpmp80211FullCfgRestoreTrap(7) type=21
+                  cambiumpmp80211FullCfgBackupTrap(8) type=21
+                  cambiumpmp80211GpsFirmwareUpdateStatusTrap(9) type=21
+                  cambiumpmp80211STADropTrap(10) type=21
+                  cambiumpmp80211SMRegTrap(11) type=21
+                  cambiumpmp80211SystemRebootTrap(12) type=21
+                  cambiumpmp80211SAModeTrap(13) type=21
+                  cambiumpmpETSIframeSkipTrap(14) type=21
+                  cambiumpmp80211NetworkEntryFailureTrap(15) type=21
+                cambiumPmp80211SystemStatus(1) type=0
+                  cambiumGeneralStatus(1) type=0
+                    cambiumCurrentSWInfo(1) type=2 hint=255a
+                    cambiumHWInfo(2) type=16
+                    cambiumDateTime(3) type=2 hint=255a
+                    cambiumSystemUptime(4) type=2 hint=255a
+                    cambiumWirelessMACAddress(5) type=2 hint=255a
+                    cambiumDFSStatus(6) type=16
+                    cambiumEffectiveSyncSource(7) type=16
+                    cambiumEffectiveCountryCode(8) type=2 hint=255a
+                    cambiumEffectiveAntennaGain(9) type=16
+                    cambiumEffectiveTDDRatio(10) type=16
+                    cambiumEffectiveSSID(11) type=2 hint=255a
+                    cambiumEffectiveAuthenticationType(12) type=16
+                    cambiumEffectiveDeviceName(13) type=2 hint=255a
+                    cambiumUbootVersion(14) type=2 hint=255a
+                    cambiumLANMACAddress(15) type=2 hint=255a
+                    cambiumCurrentuImageIVersion(16) type=2 hint=255a
+                    cambiumCurrentuImageVersion(17) type=2 hint=255a
+                    cambiumDeviceLatitude(18) type=2 hint=255a
+                    cambiumDeviceLongitude(19) type=2 hint=255a
+                    sysRebootCounter(20) type=16
+                    cambiumDFSStatusStr(21) type=2 hint=255a
+                    cambiumDriverType(22) type=16
+                    cambiumESN(30) type=2 hint=255a
+                    cambiumEPMPMSN(31) type=2 hint=255a
+                    cambiumFactoryReset(32) type=16
+                    cambiumSubModeType(33) type=16
+                  cambiumRFStatus(2) type=0
+                    cambiumSTAConnectedRFFrequency(1) type=16
+                    cambiumSTAConnectedRFBandwidth(2) type=16
+                    cambiumSTADLRSSI(3) type=16
+                    cambiumSTADLCINR(4) type=16
+                    cambiumSTAConductedTXPower(5) type=16
+                    cambiumSTAUplinkMCSMode(6) type=16
+                    cambiumSTADownlinkMCSMode(7) type=16
+                    cambiumSTAConnectedAP(8) type=2 hint=255a
+                    cambiumSTAPowerControlMode(9) type=16
+                    cambiumAPNumberOfConnectedSTA(10) type=16
+                    cambiumAPConnectedSTAListTable(11) type=0
+                      cambiumAPConnectedSTAListEntry(1) type=0
+                        connectedSTAListMAC(1) type=2 hint=255a
+                        connectedSTAListAID(2) type=16
+                        connectedSTAListChannel(3) type=16
+                        connectedSTAListULRSSI(4) type=16
+                        connectedSTAListDLRSSI(5) type=16
+                        connectedSTAListULCINR(6) type=16
+                        connectedSTAListDLCINR(7) type=16
+                        connectedSTAListULMCS(8) type=16
+                        connectedSTAListDLMCS(9) type=16
+                        connectedSTAListIP(10) type=5
+                        connectedSTAListMirSrc(12) type=2 hint=255a
+                        connectedSTAListMirULRate(13) type=2 hint=255a
+                        connectedSTAListMirDLRate(14) type=2 hint=255a
+                    cambiumSTADistanceKm(12) type=2 hint=255a
+                    cambiumSTADistanceMil(13) type=2 hint=255a
+                    cambiumPropagationDelay(14) type=16
+                    cambiumSTAConnectedAPListTable(15) type=0
+                      cambiumSTAConnectedAPListEntry(1) type=0
+                        connectedAPListSSID(1) type=2 hint=255a
+                        connectedAPListBSSID(2) type=2 hint=255a
+                        connectedAPListChannel(3) type=16
+                        connectedAPListFrequency(4) type=16
+                        connectedAPListBandwidth(5) type=2 hint=255a
+                        connectedAPListRate(6) type=2 hint=255a
+                        connectedAPListCINR(7) type=16
+                        connectedAPListRSSI(8) type=16
+                        connectedAPListNoise(9) type=16
+                        connectedAPListINT(10) type=16
+                        connectedAPListNEState(11) type=16
+                        connectedAPListNEAge(12) type=2 hint=255a
+                        connectedAPListScanAge(13) type=2 hint=255a
+                        connectedAPListRemainingSTA(14) type=16
+                        connectedAPListCAPS(15) type=2 hint=255a
+                        connectedAPAuthMethod(16) type=2 hint=255a
+                        connectedAPListMeetNEAttemptCriteria(17) type=2 hint=255a
+                    wirelessInterfaceConnectionState(16) type=16
+                    cambiumSTAPriority(17) type=16
+                    cambiumSTADLSNR(18) type=16
+                    cambiumConnectedAPMACAddress(19) type=2 hint=255a
+                    cambiumSTAConnectedAPTable(20) type=0
+                      cambiumSTAConnectedAPEntry(1) type=0
+                        connectedAPSSID(1) type=2 hint=255a
+                        connectedAPBSSID(2) type=2 hint=255a
+                        connectedAPChannel(3) type=16
+                        connectedAPFrequency(4) type=16
+                        connectedAPBandwidth(5) type=2 hint=255a
+                        connectedAPRate(6) type=2 hint=255a
+                        connectedAPSNR(7) type=16
+                        connectedAPRSSI(8) type=16
+                        connectedAPNoise(9) type=16
+                        connectedAPINT(10) type=16
+                        connectedAPNEState(11) type=16
+                        connectedAPNEAge(12) type=2 hint=255a
+                        connectedAPScanAge(13) type=2 hint=255a
+                        connectedAPRemainingSTA(14) type=16
+                        connectedAPCAPS(15) type=2 hint=255a
+                        connectedAPAuthenticationMethod(16) type=2 hint=255a
+                        connectedAPMeetNEAttemptCriteria(17) type=2 hint=255a
+                    staTxCapacity(21) type=16
+                    staTxQuality(22) type=16
+                    cambiumAPConnectedSTATable(30) type=0
+                      cambiumAPConnectedSTAEntry(1) type=0
+                        connectedSTAMAC(1) type=2 hint=255a
+                        connectedSTAAID(2) type=16
+                        connectedSTAChannel(3) type=16
+                        connectedSTAULRSSI(4) type=16
+                        connectedSTADLRSSI(5) type=16
+                        connectedSTAULSNR(6) type=16
+                        connectedSTADLSNR(7) type=16
+                        connectedSTAULMCS(8) type=16
+                        connectedSTADLMCS(9) type=16
+                        connectedSTAIP(10) type=5
+                        connectedSTAPriority(11) type=2 hint=255a
+                        connectedSTAMirSrc(12) type=2 hint=255a
+                        connectedSTAMirULRate(13) type=2 hint=255a
+                        connectedSTAMirDLRate(14) type=2 hint=255a
+                        connectedSTAClickTHWAddr(15) type=2 hint=255a
+                        connectedSTAClickTWebPort(16) type=16
+                        connectedSTAClickTWebSec(17) type=16
+                        connectedSTAClickTHostName(18) type=2 hint=255a
+                        connectedSTATXCapacity(19) type=16
+                        connectedSTATXQuality(20) type=16
+                        connectedSTAMcastTotalGroups(21) type=16
+                        connectedSTAMcastGRP0(22) type=5
+                        connectedSTAMcastGRP1(23) type=5
+                        connectedSTAMcastGRP2(24) type=5
+                        connectedSTAMcastGRP3(25) type=5
+                        connectedSTAMcastGRP4(26) type=5
+                        connectedSTASessionTime(27) type=2 hint=255a
+                        connectedSTADLRateMbps(28) type=2 hint=255a
+                        connectedSTADistance(29) type=16
+                    cambiumAPBridgeTable(40) type=0
+                      cambiumAPBridgeEntry(1) type=0
+                        camAPBrTabBridgeName(1) type=2 hint=255a
+                        camAPBrTabDevMACAddress(2) type=2 hint=255a
+                        camAPBrTabDevPort(3) type=2 hint=255a
+                        camAPBrTabSTAMACAddress(4) type=2 hint=255a
+                        camAPBrTabAgingTime(5) type=6
+                    cambiumSTABridgeTable(50) type=0
+                      cambiumSTABridgeEntry(1) type=0
+                        camSTABrTabBridgeName(1) type=2 hint=255a
+                        camSTABrTabDevMACAddress(2) type=2 hint=255a
+                        camSTABrTabDevPort(3) type=2 hint=255a
+                        camSTABrTabAgingTime(4) type=6
+                    cambiumSTAMAC(60) type=2 hint=255a
+                    cambiumSTADropReason(61) type=2 hint=255a
+                    cambiumNetworkEntryFailureSTAMAC(62) type=2 hint=255a
+                    cambiumNetworkEntryFailureReason(63) type=2 hint=255a
+                  cambiumGPSStatus(3) type=0
+                    cambiumGPSCurrentSyncState(1) type=16
+                    cambiumGPSLatitude(2) type=2 hint=255a
+                    cambiumGPSLongitude(3) type=2 hint=255a
+                    cambiumGPSHeight(4) type=2 hint=255a
+                    cambiumGPSTime(5) type=2 hint=255a
+                    cambiumGPSNumTrackedSat(6) type=16
+                    cambiumGPSNumVisibleSat(7) type=16
+                    cambiumGPSSatSNRTable(8) type=0
+                      cambiumGPSSatSNREntry(1) type=0
+                        gpsSatelliteId(1) type=16
+                        gpsSnrValue(2) type=16
+                        gpsSatelliteStatus(3) type=16
+                    cambiumGPSDeviceInfo(9) type=2 hint=255a
+                    cambiumGPSFirmwareUpdateStatus(10) type=16
+                  cambiumLinkStatus(4) type=0
+                    cambiumLANStatus(1) type=16
+                    cambiumWLANStatus(2) type=16
+                    cambiumEffectiveDeviceIPAddress(3) type=5
+                    cambiumEffectiveSTANetworkMode(4) type=16
+                    cambiumEffectiveDeviceLANNetMask(5) type=5
+                    cambiumEffectiveDeviceDefaultGateWay(6) type=5
+                    cambiumEffectiveDeviceDNSIPAddress(7) type=5
+                    cambiumEffectiveWANIPAddress(8) type=5
+                    cambiumEffectiveDeviceWANNetMask(9) type=5
+                    cambiumEffectiveDeviceWANPPPoEStatus(10) type=16
+                    cambiumLANModeStatus(11) type=16
+                    cambiumLANSpeedStatus(12) type=16
+                    cambiumDHCPOption82Status(13) type=16
+                    cambiumLAN2ModeStatus(14) type=16
+                    cambiumLAN2SpeedStatus(15) type=16
+                    cambiumLAN2Status(16) type=16
+                    cambiumARPTable(20) type=0
+                      cambiumARPEntry(1) type=0
+                        cambiumARPIndex(1) type=16
+                        cambiumARPMAC(2) type=2 hint=255a
+                        cambiumARPIP(3) type=5
+                        cambiumARPInterface(4) type=2 hint=255a
+                    cambiumManagementIFStatus(25) type=16
+                    cambiumManagementIFIPAddress(26) type=5
+                    cambiumManagementIFNetMask(27) type=5
+                    cambiumManagementIFGateway(28) type=5
+                    cambiumEffectiveNetworkLanMTU(29) type=16
+                    cambiumEffectiveNetworkBridgeMTU(30) type=16
+                    cambiumStaticRoutesTable(31) type=0
+                      cambiumStaticRoutesEntry(1) type=0
+                        cambiumStaticRoutesIndex(1) type=16
+                        cambiumStaticRoutesDestIP(2) type=5
+                        cambiumStaticRoutesGW(3) type=5
+                        cambiumStaticRoutesNetmask(4) type=5
+                        cambiumStaticRoutesInterface(5) type=2 hint=255a
+                    cambiumIPAliasTable(32) type=0
+                      cambiumIPAliasEntry(1) type=0
+                        cambiumIPAliasTableIndex(1) type=16
+                        cambiumIPAliasIP(2) type=5
+                        cambiumIPAliasNetmask(3) type=5
+                    cambiumCnsServConsStat(33) type=2 hint=255a
+                    cambiumCnsServAccountID(34) type=2 hint=255a
+                    cambiumAPCnsMGMTState(35) type=16
+                  cambiumAcsStatus(5) type=0
+                    acsState(1) type=16
+                  cambiumMcastStatus(6) type=0
+                    cambiumEffectiveMcastGroupLimit(1) type=16
+                    cambiumSubscribedMcastGroupNum(2) type=16
+                    cambiumAPMcastTotalGroupCount(3) type=16
+                    cambiumMcastHandlingStatus(4) type=16
+                    cambiumSubscribedMcastGroupTable(10) type=0
+                      cambiumSubscribedMcastGroupEntry(1) type=0
+                        cambiumRegisteredMcastGroupIP(1) type=5
+                  cambiumDhcpStatus(7) type=0
+                    dhcpServerStartIP(1) type=5
+                    dhcpServerEndIP(2) type=5
+                    dhcpServerGatewayIP(3) type=5
+                    dhcpServerDNSIP(4) type=5
+                    dhcpServerStaticHostTable(5) type=0
+                      dhcpServerStaticHostEntry(1) type=0
+                        dhcpStaticIndex(1) type=16
+                        dhcpStaticMAC(2) type=2 hint=255a
+                        dhcpStaticIP(3) type=5
+                    dhcpServerLeaseTable(6) type=0
+                      dhcpServerLeaseEntry(1) type=0
+                        dhcpLeaseIndex(1) type=16
+                        dhcpLeaseMAC(2) type=2 hint=255a
+                        dhcpLeaseIP(3) type=5
+                        dhcpLeaseDevName(4) type=2 hint=255a
+                  cambiumLicenseInfo(8) type=0
+                    cambLicenseVersion(1) type=2 hint=255a
+                    cambLicenseSMcntUnlock(2) type=2 hint=255a
+                    cambLicenseMACaddr(3) type=2 hint=255a
+                    cambLicenseCountry(4) type=2 hint=255a
+                    cambLicenseStatus(5) type=16
+                  cambiumRadiusVSAStatus(9) type=0
+                    networkRadiusVSAmgmtVLANVID(1) type=16
+                    networkRadiusVSAmgmtVLANVP(2) type=16
+                    networkRadiusVSAdataVLANVID(3) type=16
+                    networkRadiusVSAdataVLANVP(4) type=16
+                    networkRadiusVSAmgmtIFVID(5) type=16
+                    networkRadiusVSAmgmtIFVP(6) type=16
+                    networkRadiusVSAmcastVLANVID(7) type=16
+                    networkRadiusVSAmembershipVLANTable(10) type=0
+                      networkRadiusVSAmembershipVLANEntry(1) type=0
+                        networkRadiusVSAmembershipVLANIndex(1) type=16
+                        networkRadiusVSAmembershipVLANVIDBegin(2) type=16
+                        networkRadiusVSAmembershipVLANVIDEnd(3) type=16
+                    networkRadiusVSAmappingVLANTable(20) type=0
+                      networkRadiusVSAmappingVLANEntry(1) type=0
+                        networkRadiusVSAmappingVLANIndex(1) type=16
+                        networkRadiusVSAmappingVLANCVLAN(2) type=16
+                        networkRadiusVSAmappingVLANSVLAN(3) type=16
+                cambiumPmp80211SystemMonitoring(2) type=0
+                  cambiumPerformanceMonitoring(1) type=0
+                    cambiumStatsForceUpdate(1) type=16
+                    cambiumEthRXBytes(2) type=11
+                    cambiumEthRXPackets(3) type=11
+                    cambiumEthRXErrors(4) type=11
+                    cambiumEthRXDrops(5) type=11
+                    cambiumEthRXMulticast(6) type=11
+                    cambiumEthRXBroadcast(7) type=11
+                    cambiumEthTXBytes(8) type=11
+                    cambiumEthTXPackets(9) type=11
+                    cambiumEthTXErrors(10) type=11
+                    cambiumEthTXDrops(11) type=11
+                    cambiumEthTXMulticast(12) type=11
+                    cambiumEthTXBroadcast(13) type=11
+                    cambiumAthRXBytes(21) type=11
+                    cambiumAthRXPackets(22) type=11
+                    cambiumAthRXErrors(23) type=11
+                    cambiumAthRXDrops(24) type=11
+                    cambiumAthRXMulticast(25) type=11
+                    cambiumAthRXBroadcast(26) type=11
+                    cambiumAthTXBytes(27) type=11
+                    cambiumAthTXPackets(28) type=11
+                    cambiumAthTXErrors(29) type=11
+                    cambiumAthTXDrops(30) type=11
+                    cambiumAthTXMulticast(31) type=11
+                    cambiumAthTXBroadcast(32) type=11
+                    sysNetworkEntryAttempt(33) type=6
+                    sysNetworkEntrySuccess(34) type=6
+                    sysNetworkEntryAuthenticationFailure(35) type=6
+                    sysDFSDetectedCount(36) type=6
+                    ulWLanKbitCount(37) type=11
+                    dlWLanKbitCount(38) type=11
+                    ulWLanTotalPacketCount(39) type=11
+                    sysRebootCount(41) type=16
+                    dlWLanTotalPacketCount(42) type=11
+                    ulWLanMultiBroadcastKbitCount(43) type=11
+                    dlWLanMultiBroadcastKbitCount(44) type=11
+                    wLanSessionDroppedCount(45) type=6
+                    cambiumTDDStatsPerSTATable(46) type=0
+                      cambiumTDDStatsPerSTAEntry(1) type=0
+                        cambiumTDDStatsPerSTAIndex(1) type=16
+                        cambiumTDDStatsListMAC(2) type=2 hint=255a
+                        ulWLanPerUserKbitCount(3) type=11
+                        dlWLanPerUserKbitCount(4) type=11
+                        ulWLanPerUserTotalPacketCount(5) type=11
+                        dlWLanPerUserTotalPacketCount(6) type=11
+                        ulWLanPerUserErrorDroppedPacketCount(7) type=11
+                        dlWLanPerUserErrorDroppedPacketCount(8) type=11
+                        dlWLanPerUserCapacityDroppedPacketCount(9) type=11
+                        dlWLanPerUserRetransmitPacketCount(10) type=11
+                        dlWLanPerUserTxPower(11) type=16
+                    ulWLanErrorDroppedPacketCount(47) type=11
+                    dlWLanErrorDroppedPacketCount(48) type=11
+                    ulWLanCapacityDroppedPacketCount(49) type=11
+                    dlWLanCapacityDroppedPacketCount(50) type=11
+                    ulWLanTotalAvailableFrameTimePerSecond(51) type=6
+                    dlWLanTotalAvailableFrameTimePerSecond(52) type=6
+                    ulWLanTotalUsedFrameTimePerSecond(53) type=6
+                    dlWLanTotalUsedFrameTimePerSecond(54) type=6
+                    ulWLanTotalOverheadFrameTimePerSecond(55) type=6
+                    dlWLanTotalOverheadFrameTimePerSecond(56) type=6
+                    cambiumMCSTable(57) type=0
+                      cambiumMCSEntry(1) type=0
+                        cambiumMCSIndex(1) type=16
+                        cambiumMCSNumber(2) type=2 hint=255a
+                        ulWLanMCSUsedFrameTimePerSecond(3) type=6
+                        dlWLanMCSUsedFrameTimePerSecond(4) type=6
+                    ulWLanRetransPacketCount(58) type=11
+                    dlWLanRetransPacketCount(59) type=11
+                    ulWLanBroadcastPacketCount(60) type=6
+                    dlWLanBroadcastPacketCount(61) type=6
+                    ulWLanMulticastPacketCount(62) type=6
+                    dlWLanMulticastPacketCount(63) type=6
+                    sysCPUUsage(64) type=6
+                    rxEtherLanKbitCount(65) type=11
+                    rxEtherLanTotalPacketCount(66) type=11
+                    rxEtherLanErrorPacketCount(67) type=11
+                    rxEtherLanDroppedPacketCount(68) type=11
+                    rxEtherLanMulticastPacketCount(69) type=11
+                    rxEtherLanBroadcastPacketCount(70) type=11
+                    rxEtherLanMultiBroadcastKbitCount(71) type=11
+                    txEtherLanKbitCount(72) type=11
+                    txEtherLanTotalPacketCount(73) type=11
+                    txEtherLanErrorPacketCount(74) type=11
+                    txEtherLanDroppedPacketCount(75) type=11
+                    txEtherLanMulticastPacketCount(76) type=11
+                    txEtherLanBroadcastPacketCount(77) type=11
+                    txEtherLanMultiBroadcastKbitCount(78) type=11
+                    cambiumStatsResetTimer(79) type=8
+                    ulWLanMCS00Packets(80) type=11
+                    ulWLanMCS01Packets(81) type=11
+                    ulWLanMCS02Packets(82) type=11
+                    ulWLanMCS03Packets(83) type=11
+                    ulWLanMCS04Packets(84) type=11
+                    ulWLanMCS05Packets(85) type=11
+                    ulWLanMCS06Packets(86) type=11
+                    ulWLanMCS07Packets(87) type=11
+                    ulWLanMCS08Packets(88) type=11
+                    ulWLanMCS09Packets(89) type=11
+                    ulWLanMCS10Packets(90) type=11
+                    ulWLanMCS11Packets(91) type=11
+                    ulWLanMCS12Packets(92) type=11
+                    ulWLanMCS13Packets(93) type=11
+                    ulWLanMCS14Packets(94) type=11
+                    ulWLanMCS15Packets(95) type=11
+                    dlWLanMCS00Packets(96) type=11
+                    dlWLanMCS01Packets(97) type=11
+                    dlWLanMCS02Packets(98) type=11
+                    dlWLanMCS03Packets(99) type=11
+                    dlWLanMCS04Packets(100) type=11
+                    dlWLanMCS05Packets(101) type=11
+                    dlWLanMCS06Packets(102) type=11
+                    dlWLanMCS07Packets(103) type=11
+                    dlWLanMCS08Packets(104) type=11
+                    dlWLanMCS09Packets(105) type=11
+                    dlWLanMCS10Packets(106) type=11
+                    dlWLanMCS11Packets(107) type=11
+                    dlWLanMCS12Packets(108) type=11
+                    dlWLanMCS13Packets(109) type=11
+                    dlWLanMCS14Packets(110) type=11
+                    dlWLanMCS15Packets(111) type=11
+                  cambiumRealTimeStatsMonitoring(2) type=0
+                  cambiumAdvancedPerformanceMonitoring(3) type=0
+                cambiumpmp80211SystemConfiguration(3) type=0
+                  cambiumSystemLog(1) type=0
+                    syslogServerIPFirst(1) type=5
+                    syslogServerIPSecond(2) type=5
+                    syslogServerIPThird(3) type=5
+                    syslogServerIPFourth(4) type=5
+                    syslogServerLogToWeb(5) type=16
+                    syslogServerLogMask(6) type=16
+                  cambiumDHCP(2) type=0
+                    dhcpLanEnable(1) type=16
+                    dhcpLanStart(2) type=16
+                    dhcpLanLimit(3) type=16
+                    dhcpLanLeasetime(4) type=16
+                    dhcpLanHostTable(5) type=0
+                      dhcpLanHostEntry(1) type=0
+                        dhcpLanHostIndex(1) type=16
+                        dhcpLanHostIP(2) type=5
+                        dhcpLanHostMAC(3) type=2 hint=255a
+                        dhcpLanHostName(4) type=2 hint=255a
+                    dhcpOption82(6) type=16
+                  cambiumSSHServer(3) type=0
+                    cambiumSSHServerEnable(1) type=16
+                  network(4) type=0
+                    networkMode(1) type=16
+                    networkLan(2) type=0
+                      networkLanIPAddressMode(1) type=16
+                      networkLanIPAddr(2) type=5
+                      networkLanNetmask(3) type=5
+                      networkLanGatewayIP(4) type=5
+                      networkLanDNSIPAddr(5) type=5
+                      networkLanMTU(6) type=16
+                      networkLanDNSIPAddrPrimary(7) type=5
+                      networkLanDNSIPAddrSecondary(8) type=5
+                      networkLanAutoNegotiation(9) type=16
+                      networkLanSpeed(10) type=16
+                      networkLanDuplex(11) type=16
+                      networkBroadcastStormEnabled(12) type=16
+                      networkBroadcastStormRate(13) type=16
+                      networkLan2Enabled(20) type=16
+                      networkLan2AutoNegotiation(21) type=16
+                      networkLan2Speed(22) type=16
+                      networkLan2Duplex(23) type=16
+                      networkLan2PoEEnabled(24) type=16
+                      networkLanEnabled(25) type=16
+                    networkWan(3) type=0
+                      networkWanIPAddressMode(1) type=16
+                      networkWanIPAddr(2) type=5
+                      networkWanNetmask(3) type=5
+                      networkWanGatewayIP(4) type=5
+                      networkWanDNSIPAddr(5) type=5
+                      networkWanMTU(6) type=16
+                      networkWanDNSIPAddrPrimary(7) type=5
+                      networkWanDNSIPAddrSecondary(8) type=5
+                      networkWanPPPoE(9) type=16
+                      networkWanPPPoEUsername(10) type=2 hint=255a
+                      networkWanPPPoEPassword(11) type=2 hint=255a
+                      networkWanPPPoEAC(12) type=2 hint=255a
+                      networkWanPPPoEService(13) type=2 hint=255a
+                      networkWanPPPoEAuth(14) type=16
+                      networkWanPPPoEMTU(15) type=16
+                      networkWanPPPoEKeepAlive(16) type=16
+                      networkWanPPPoEMSSClamping(17) type=16
+                    mgmtVLAN(4) type=0
+                      mgmtVLANEnable(1) type=16
+                      mgmtVLANVID(2) type=16
+                      mgmtVLANVP(3) type=16
+                    dataVLAN(5) type=0
+                      dataVLANEnable(1) type=16
+                      dataVLANVID(2) type=16
+                      dataVLANVP(3) type=16
+                    networkSTP(6) type=16
+                    networkBridge(7) type=0
+                      networkBridgeIPAddressMode(1) type=16
+                      networkBridgeIPAddr(2) type=5
+                      networkBridgeNetmask(3) type=5
+                      networkBridgeGatewayIP(4) type=5
+                      networkBridgeDNSIPAddr(5) type=5
+                      networkBridgeMTU(6) type=16
+                      networkBridgeDNSIPAddrPrimary(7) type=5
+                      networkBridgeDNSIPAddrSecondary(8) type=5
+                    networkPortSecurity(8) type=16
+                    networkPortSecurityMax(9) type=16
+                    networkPortSecurityAgingTime(10) type=16
+                    mcastVLAN(15) type=0
+                      mcastVLANEnable(1) type=16
+                      mcastVLANVID(2) type=16
+                      mcastVLANVP(3) type=16
+                    mcastGroupLimit(17) type=16
+                    mgmtIF(20) type=0
+                      mgmtIFEnable(1) type=16
+                      mgmtIFVLAN(2) type=16
+                      mgmtIFVID(3) type=16
+                      mgmtIFVP(4) type=16
+                      mgmtIFIPAddressMode(5) type=16
+                      mgmtIFIPAddr(6) type=5
+                      mgmtIFNetmask(7) type=5
+                      mgmtIFGateway(8) type=5
+                    networkLanDefaultIP(25) type=5
+                    networkRelaydEnable(26) type=16
+                    networkAliases(27) type=0
+                      cambiumIPAliasCnfTable(1) type=0
+                        cambiumIPAliasCnfEntry(1) type=0
+                          cambiumIPAliasesIndex(1) type=16
+                          cambiumIPAliasesIpAddr(2) type=5
+                          cambiumIPAliasesNetmask(3) type=5
+                          cambiumIPAliasesInfo(4) type=2 hint=255a
+                      cambiumIPAliasesEnable(2) type=16
+                  snmp(5) type=0
+                    snmpReadOnlyCommunity(1) type=2 hint=255a
+                    snmpReadWriteCommunity(2) type=2 hint=255a
+                    snmpSystemName(3) type=2 hint=255a
+                    snmpSystemDescription(4) type=2 hint=255a
+                    snmpTrapEnable(5) type=16
+                    snmpTrapCommunity(6) type=2 hint=255a
+                    snmpTrapTable(7) type=0
+                      snmpTrapEntry(1) type=0
+                        snmpTrapEntryIndex(1) type=16
+                        snmpTrapEntryIP(2) type=5
+                        snmpTrapEntryPort(3) type=16
+                    snmpDomainAccessEnable(8) type=16
+                    snmpDomainAccessIP(9) type=2 hint=255a
+                    snmpDomainAccessIPMask(10) type=2 hint=255a
+                  cambiumSystem(6) type=0
+                    systemConfig(1) type=0
+                      systemConfigTimezone(1) type=2 hint=255a
+                      systemConfigDeviceName(2) type=2 hint=255a
+                      systemConfigETSILicense(3) type=2 hint=255a
+                      systemConfigSWLockBit(4) type=16
+                      systemConfigHWLockBit(5) type=16
+                      systemDeviceLocLatitude(6) type=2 hint=255a
+                      systemDeviceLocLongitude(7) type=2 hint=255a
+                      systemDeviceLocHeight(8) type=2 hint=255a
+                      systemConfigisGPSkeyOK(10) type=16
+                      systemConfigGPSLockBit(11) type=16
+                      systemConfigSMLockBit(12) type=16
+                      systemConfigSMLimit(13) type=16
+                      powerSequenceFactoryDefault(15) type=16
+                      systemConfigLockedCC(16) type=2 hint=255a
+                      systemConfigMinAntGain(17) type=16
+                      systemConfigOperationalLicense(18) type=2 hint=255a
+                    systemNtpServer(2) type=0
+                      systemNtpServerIPMode(1) type=16
+                      systemNtpServerPrimaryIP(2) type=5
+                      systemNtpServerSecondaryIP(3) type=5
+                  cambiumWebServer(7) type=0
+                    webService(1) type=16
+                    httpPort(2) type=16
+                    httpsPort(3) type=16
+                  wireless(8) type=0
+                    wirelessDevice(1) type=0
+                      wirelessDeviceCountryCode(1) type=2 hint=255a
+                      wirelessType(2) type=16
+                      wirelessDefaultCountryCode(3) type=2 hint=255a
+                    wirelessInterface(2) type=0
+                      wirelessInterfaceMode(1) type=16
+                      wirelessInterfaceSSID(2) type=2 hint=255a
+                      wirelessInterfaceEncryption(3) type=16
+                      wirelessInterfaceEncryptionKey(4) type=2 hint=255a
+                      wirelessInterfaceHTMode(5) type=16
+                      wirelessInterfaceTXPower(6) type=16
+                      wirelessInterfaceTDDAntennaGain(7) type=16
+                      wirelessInterfaceTDDRatio(9) type=16
+                      wirelessInterfaceTPCTRL(10) type=16
+                      wirelessInterfaceTPCMode(11) type=16
+                      wirelessInterfacePTPMode(12) type=16
+                      wirelessInterfacePTPMACAddress(13) type=2 hint=255a
+                      wirelessInterfaceSyncSource(14) type=16
+                      wirelessInterfaceSyncHoldTime(15) type=16
+                      wirelessInterfaceScanFrequencyListTwenty(16) type=2 hint=255a
+                      wirelessInterfaceScanFrequencyListForty(17) type=2 hint=255a
+                      centerFrequency(18) type=16
+                      dfsAlternative1CenterFrequency(19) type=16
+                      dfsAlternative2CenterFrequency(20) type=16
+                      wirelessMaximumCellSize(21) type=16
+                      wirelessCellSizeUnit(22) type=16
+                      wirelessMaximumSTA(23) type=16
+                      dfsAlternative1Bandwidth(24) type=16
+                      dfsAlternative2Bandwidth(25) type=16
+                      wirelessAcceptableAPRSSIThreshold(26) type=16
+                      wirelessAcceptableAPCINRThreshold(27) type=16
+                      wirelessInterfaceUnblockUSfreqs(28) type=16
+                      wirelessMIREnable(29) type=16
+                      wirelessMIRSTAProfileNumber(30) type=16
+                      wirelessMIRAPDefaultProfileNumber(31) type=16
+                      wirelessInterfaceScanFrequencyBandwidth(32) type=16
+                      wirelessInterfaceGuardInterval(33) type=16
+                      wirelessInterfaceiFreqReuseMode(34) type=16
+                      wirelessSTAPriority(35) type=16
+                      wirelessSmoothingBit(36) type=16
+                      wirelessSecurityMethod(37) type=16
+                      wirelessAcceptableAPSNRThreshold(38) type=16
+                      wirelessMgmtPacketRate(39) type=16
+                      wirelessStaIsolate(40) type=16
+                      wirelessCcaEnable(41) type=16
+                      wirelessInterfaceScanFrequencyListTen(42) type=2 hint=255a
+                      wirelessInterfaceScanFrequencyListFive(43) type=2 hint=255a
+                      wirelessMulticastEnhanceMode(44) type=16
+                      wirelessTXPowerManualLimit(48) type=16
+                      wirelessRateMaxMCS(49) type=16
+                      wirelessSMWifiDistance(50) type=16
+                      wirelessInterfaceProtocolMode(51) type=16
+                      forceMcastBcast4Addr(53) type=16
+                      wirelessInterfaceRateMinMCS(55) type=16
+                      wirelessInterfaceRateMaxMCS(56) type=16
+                      wirelessMulticastIgmpFastLeave(57) type=16
+                      wirelessInterfaceTDDFrameSize(58) type=16
+                      wirelessInterfaceColocState(59) type=16
+                      wirelessInterfaceColocSystemSyncSrc(60) type=16
+                      wirelessAPWifiWLANmode(61) type=16
+                      apWiFiDLCTSMode(62) type=16
+                      apWiFiULCTSRTSMode(63) type=16
+                      apWiFiRTSThreshold(64) type=16
+                      wirelessMACFilter(70) type=16
+                      wirelessMACFilterPolicy(71) type=16
+                      wirelessMACFilterTable(72) type=0
+                        wirelessMACFilterEntry(1) type=0
+                          wirelessMACFilterIndex(1) type=16
+                          wirelessFilterMAC(2) type=2 hint=255a
+                          wirelessFilterInfo(3) type=2 hint=255a
+                    wirelessPrefList(3) type=0
+                      prefferedAPTable(1) type=0
+                        prefferedAPEntry(1) type=0
+                          prefferedListTableEntryIndex(1) type=16
+                          prefferedListTableEntrySSID(2) type=2 hint=255a
+                          prefferedListTableEntryKEY(3) type=2 hint=255a
+                          prefferedListTableSecurityMethod(4) type=16
+                    wirelessMIRList(4) type=0
+                      wirelessMIRProfileTable(1) type=0
+                        wirelessMIRProfileEntry(1) type=0
+                          wirelessMIRProfileIndex(1) type=16
+                          wirelessMIRProfileNumber(2) type=16
+                          wirelessMIRProfileDescription(3) type=2 hint=255a
+                          wirelessDLMIR(4) type=16
+                          wirelessULMIR(5) type=16
+                    wirelessRadius(5) type=0
+                      wirelessRadiusTimeout(1) type=16
+                      wirelessRadiusRetry(2) type=16
+                      wirelessRadiusGUIUserAuth(3) type=16
+                      wirelessRadiusCurrentGUIUserAuth(4) type=16
+                      wirelessRadiusSeverInfo(5) type=2 hint=255a
+                      wirelessRadiusIdentityStr(6) type=2 hint=255a
+                      wirelessRadiusIdentityRealm(7) type=2 hint=255a
+                      wirelessRadiusUsername(8) type=2 hint=255a
+                      wirelessRadiusPassword(9) type=2 hint=255a
+                      useMACAddressAsWirelessRadiusUsername(10) type=16
+                    wirelessRadiusServerList(6) type=0
+                      wirelessRadiusServerTable(1) type=0
+                        wirelessRadiusServerEntry(1) type=0
+                          wirelessRadiusServerIndex(1) type=16
+                          wirelessRadiusServerIP(2) type=5
+                          wirelessRadiusServerPort(3) type=16
+                          wirelessRadiusServerSecret(4) type=2 hint=255a
+                    wirelessRadiusCertificateList(7) type=0
+                      wirelessRadiusCertificateListRow1(1) type=0
+                        wirelessRadiusUseDefCertificate(1) type=16
+                        wirelessRadiusDefCertificateView(2) type=2 hint=255a
+                      wirelessRadiusCertificateListRow2(2) type=0
+                        wirelessRadiusUser1CertificateName(1) type=2 hint=255a
+                        wirelessRadiusUser1CertificateView(2) type=2 hint=255a
+                      wirelessRadiusCertificateListRow3(3) type=0
+                        wirelessRadiusUser2CertificateName(1) type=2 hint=255a
+                        wirelessRadiusUser2CertificateView(2) type=2 hint=255a
+                    wirelessRadiusCertificateSet(8) type=0
+                      wirelessRadiusDefaultCertificate(1) type=2
+                      wirelessRadiusUser1Certificate(2) type=2
+                      wirelessRadiusUser2Certificate(3) type=2
+                      wirelessRadiusUseDefaultCertificate(4) type=16
+                    wirelessRadiusExtraCertificateSet(9) type=0
+                      wirelessRadiusPMP320Certificate(1) type=2
+                      wirelessRadiusUsePMP320Certificate(2) type=16
+                      wirelessRadiusPMP450Certificate(3) type=2
+                      wirelessRadiusUsePMP450Certificate(4) type=16
+                    multicast(10) type=0
+                  l2Firewall(9) type=0
+                    l2FirewallEnable(1) type=16
+                    l2FirewallTable(2) type=0
+                      l2FirewallEntry(1) type=0
+                        l2FirewallEntryIndex(1) type=16
+                        l2FirewallEntryName(2) type=2 hint=255a
+                        l2FirewallEntryAction(3) type=16
+                        l2FirewallEntryInterface(4) type=16
+                        l2FirewallEntryLog(5) type=16
+                        l2FirewallEntryEtherType(6) type=16
+                        l2FirewallEntryVlanID(7) type=16
+                        l2FirewallEntrySrcMAC(8) type=2 hint=255a
+                        l2FirewallEntrySrcMask(9) type=2 hint=255a
+                        l2FirewallEntryDstMAC(10) type=2 hint=255a
+                        l2FirewallEntryDstMask(11) type=2 hint=255a
+                    l2WanRemoteAccess(3) type=16
+                    l2SnmpLanRemoteAccess(4) type=16
+                    l2DHCPServersBelowSTA(5) type=16
+                    l2LanRemoteAccess(6) type=16
+                  l3Firewall(10) type=0
+                    l3FirewallEnable(1) type=16
+                    l3FirewallTable(2) type=0
+                      l3FirewallEntry(1) type=0
+                        l3FirewallEntryIndex(1) type=16
+                        l3FirewallEntryName(2) type=2 hint=255a
+                        l3FirewallEntryAction(3) type=16
+                        l3FirewallEntryInterface(4) type=16
+                        l3FirewallEntryLog(5) type=16
+                        l3FirewallEntryProtocol(6) type=16
+                        l3FirewallEntryPort(7) type=16
+                        l3FirewallEntrySrcIP(8) type=5
+                        l3FirewallEntrySrcMask(9) type=5
+                        l3FirewallEntryDstIP(10) type=5
+                        l3FirewallEntryDstMask(11) type=5
+                        l3FirewallEntryDSCP(12) type=16
+                        l3FirewallEntryToS(13) type=16
+                  confQoS(11) type=0
+                    voipEnable(1) type=16
+                    qosEnable(2) type=16
+                    classificationListTable(3) type=0
+                      classificationListEntry(1) type=0
+                        classificationRuleIndex(1) type=16
+                        classificationRuleType(2) type=16
+                        classificationRuleValue(3) type=16
+                        classificationRuleIP(4) type=5
+                        classificationRuleMAC(5) type=2 hint=255a
+                        classificationRuleMask(6) type=2 hint=255a
+                        classificationRuleDirection(7) type=16
+                        classificationRuleQueue(8) type=16
+                    mcPriority(4) type=16
+                    bcPriority(5) type=16
+                  dmz(12) type=0
+                    dmzEnable(1) type=16
+                    dmzIPAddress(2) type=5
+                  portForwarding(13) type=0
+                    portForwardingEntryEnable(1) type=16
+                    portForwardingTable(2) type=0
+                      portForwardingEntry(1) type=0
+                        portForwardingTableEntryIndex(1) type=16
+                        portForwardingTableEntryProtocol(2) type=16
+                        portForwardingTableEntryWLANPortBegin(3) type=16
+                        portForwardingTableEntryWLANPortEnd(4) type=16
+                        portForwardingTableEntryLANIP(5) type=5
+                        portForwardingTableEntryWLANPortMappedBegin(6) type=16
+                    portForwardingSepMangIPEntryEnable(3) type=16
+                    portForwardingSepMangIPTable(4) type=0
+                      portForwardingSepMangIPEntry(1) type=0
+                        portForwardingSepMangIPTableEntryIndex(1) type=16
+                        portForwardingSepMangIPTableEntryProtocol(2) type=16
+                        portForwardingSepMangIPTableEntryWLANPortBegin(3) type=16
+                        portForwardingSepMangIPTableEntryWLANPortEnd(4) type=16
+                        portForwardingSepMangIPTableEntryLANIP(5) type=5
+                        portForwardingSepMangIPTableEntryWLANPortMappedBegin(6) type=16
+                  vlans(14) type=0
+                    membershipVLANTable(3) type=0
+                      membershipVLANEntry(1) type=0
+                        membershipVLANTableEntryIndex(1) type=16
+                        membershipVLANTableEntryVIDBegin(2) type=16
+                        membershipVLANTableEntryVIDEnd(3) type=16
+                    mappingVLANTable(5) type=0
+                      mappingVLANEntry(1) type=0
+                        mappingVLANTableEntryIndex(1) type=16
+                        mappingVLANTableEntryCVLAN(2) type=16
+                        mappingVLANTableEntrySVLAN(3) type=16
+                  dlkm(15) type=0
+                    dlkmNATSIPHelpers(1) type=16
+                  routing(16) type=0
+                    staticRoutesEnableMain(1) type=16
+                    cambiumStaticRoutesCnfTable(2) type=0
+                      cambiumStaticRoutesCnfEntry(1) type=0
+                        cambiumStaticRoutesCnfIndex(1) type=16
+                        cambiumStaticRoutesCnfDestIP(2) type=5
+                        cambiumStaticRoutesCnfGW(3) type=5
+                        cambiumStaticRoutesCnfNetmask(4) type=5
+                        cambiumStaticRoutesCnfEnbl(5) type=16
+                        cambiumStaticRoutesCnfInfo(6) type=2 hint=255a
+                  cambiumDeviceAgent(20) type=0
+                    cambiumDeviceAgentEnable(1) type=16
+                    cambiumDeviceAgentCNSURL(2) type=2 hint=255a
+                    cambiumCNSDeviceAgentID(3) type=2 hint=255a
+                    cambiumCNSDeviceAgentPassword(4) type=2 hint=255a
+                  upnpd(21) type=0
+                    networkUPNP(1) type=16
+                    networkNATPMP(2) type=16
+                  lldpd(23) type=0
+                    networkLLDP(1) type=16
+                    networkLLDPMode(2) type=16
+                cambiumpmp80211SystemActions(4) type=0
+                  cambiumpmp80211DeviceReboot(1) type=16
+                  cambiumpmp80211ConfigurationReset(2) type=16
+                  cambiumpmp80211ConfigurationSave(3) type=16
+                  cambiumpmp80211ConfigurationApply(4) type=16
+                  cambiumpmp80211ConfigurationDiscard(5) type=16
+                  cambiumpmp80211ConfigurationState(6) type=16
+                  cambiumpmp80211SoftwareUpdate(7) type=2 hint=255a
+                  cambiumpmp80211SoftwareUpdateStatus(8) type=16
+                  cambiumpmp80211STAListUpdate(9) type=16
+                  cambiumpmp80211STAListUpdateStatus(10) type=16
+                  cambiumpmp80211APListUpdate(11) type=16
+                  cambiumpmp80211APListUpdateStatus(12) type=16
+                  cambiumpmp80211SoftwareUpdateError(13) type=16
+                  cambiumpmp80211StatsPerSTAListUpdateStatus(14) type=16
+                  cambiumpmp80211StatsPerSTAListUpdate(15) type=16
+                  cambiumpmp80211STADisconnect(16) type=16
+                  cambiumpmp80211GPSAutopopulate(17) type=16
+                  cambiumpmp80211SoftwareUpdateErrorStr(18) type=2 hint=255a
+                  cambiumpmp80211GpsFirmwareUpdate(19) type=2 hint=255a
+                  cambiumpmp80211GpsFirmwareUpdateError(21) type=16
+                  cambiumpmp80211GpsFirmwareUpdateErrorStr(22) type=2 hint=255a
+                  cambiumBridgeTableAPStatus(25) type=16
+                  cambiumBridgeTableSTAUpdate(26) type=16
+                  cambiumBridgeTableSTAStatus(27) type=16
+                  cambiumBridgeTableAPUpdate(28) type=16
+                  cambiumForceTabUpdDHCP(30) type=16
+                  cambiumForceTabUpdTrap(31) type=16
+                  cambiumForceTabUpdl2Frw(32) type=16
+                  cambiumForceTabUpdl3Frw(33) type=16
+                  cambiumForceTabUpdQos(34) type=16
+                  cambiumForceTabUpdPortFw(35) type=16
+                  cambiumForceTabUpdVlan(36) type=16
+                  cambiumForceTabUpdMappingVlan(37) type=16
+                  cambiumConfigurationApplyOnReboot(38) type=16
+                  cambiumForceSTARescan(39) type=16
+                  cambiumForceTabUpdMcastDeny(40) type=16
+                  cambiumForceTabUpdStaticRoutesCnf(41) type=16
+                  cambiumForceTabUpdMIR(42) type=16
+                  cambiumForceTabUpdRadiusServ(43) type=16
+                  cambiumForceTabUpdPrefAPList(44) type=16
+                  cambiumForceTabUpdAPAlias(45) type=16
+                  cambiumForceTabUpdPortFwSepMangIP(46) type=16
+                cambiumpmp80211Tools(6) type=0
+                  cambiumLinkTest(1) type=0
+                    cambiumLinkTestDuration(1) type=16
+                    cambiumLinkTestPckSize(2) type=16
+                    cambiumLinkTestStartForMAC(3) type=2 hint=255a
+                    cambiumLinkTestStatus(4) type=16
+                    cambiumLinkTestResultDate(5) type=2 hint=255a
+                    cambiumLinkTestResultUL(6) type=16
+                    cambiumLinkTestResultDL(7) type=16
+                  caminfo(2) type=0
+                    caminfoScanFrequencyListCountry(1) type=2 hint=255a
+                    caminfoScanFrequencyListTwentyBand(2) type=2 hint=255a
+                    caminfoScanFrequencyListFortyBand(3) type=2 hint=255a
+                    caminfoScanFrequencyListAllow59band(4) type=16
+                  cambiumToolBar(3) type=0
+                    cambiumToolBarOpts(1) type=0
+                      cambiumInternetConnectionServerIP(1) type=5
+                      cambiumInternetConnectionPollPeriod(2) type=16
+                    cambiumToolBarStates(2) type=0
+                      cambiumToolbarGlobeState(1) type=16
+                      cambiumToolbarGPSSyncState(2) type=16
+                      cambiumToolbarDeviceConfigurationState(3) type=16
+                      cambiumToolbarSyncSource(4) type=16
+                      cambiumToolbarGPSSyncStateStr(5) type=2 hint=255a
+                  cambiumCfg(4) type=0
+                    cambiumJSONCfgImport(1) type=2 hint=255a
+                    cambiumJSONCfgImportStatus(2) type=16
+                    cambiumJSONCfgImportError(3) type=2 hint=255a
+                    cambiumJSONCfgExport(10) type=16
+                    cambiumJSONCfgExportStatus(11) type=16
+                    cambiumJSONCfgExportError(12) type=2 hint=255a
+                    cambiumJSONCfgExportLink(13) type=2 hint=255a
+                    cambiumFullCfgRestore(20) type=2 hint=255a
+                    cambiumFullCfgRestoreStatus(21) type=16
+                    cambiumFullCfgRestoreError(22) type=2 hint=255a
+                    cambiumFullCfgBackUp(30) type=16
+                    cambiumFullCfgBackUpStatus(31) type=16
+                    cambiumFullCfgBackUpError(32) type=2 hint=255a
+                    cambiumFullCfgBackUpLink(33) type=2 hint=255a
+                  cambiumIDM(5) type=0
+                    cambiumIDMMode(1) type=16
+                    cambiumIDMTime(2) type=16
+                    cambiumIDMEnable(3) type=16
+                    cambiumIDMResultsTable(10) type=0
+                      cambiumIDMResultsEntry(1) type=0
+                        idmDeviceListCycle(1) type=16
+                        idmDeviceListMAC(2) type=2 hint=255a
+                        idmDeviceListLCombRSSI(3) type=16
+                        idmDeviceListLRate(4) type=2 hint=255a
+                        idmDeviceListMaxRate(5) type=2 hint=255a
+                        idmDeviceListPcktsNum(6) type=16
+                        idmDeviceListCRCCombRSSI(7) type=16
+                        idmDeviceListCRCCh0RSSI(8) type=16
+                        idmDeviceListCRCCh1RSSI(9) type=16
+                        idmDeviceListCRCPcktsNum(10) type=16
+                        idmDeviceListPRQCombRSSI(11) type=16
+                        idmDeviceListPRQCh0RSSI(12) type=16
+                        idmDeviceListPRQCh1RSSI(13) type=16
+                        idmDeviceListPRQPcktsNum(14) type=16
+                    cambiumIDMSumMAC(11) type=2 hint=255a
+                    cambiumIDMSumLCombRSSI(12) type=16
+                    cambiumIDMSumLRate(13) type=2 hint=255a
+                    cambiumIDMSumMaxRate(14) type=2 hint=255a
+                    cambiumIDMSumPcktsNum(15) type=16
+                    cambiumIDMSumCRCCombRSSI(16) type=16
+                    cambiumIDMSumCRCCh0RSSI(17) type=16
+                    cambiumIDMSumCRCCh1RSSI(18) type=16
+                    cambiumIDMSumCRCPcktsNum(19) type=16
+                    cambiumIDMSumPRQCombRSSI(20) type=16
+                    cambiumIDMSumPRQCh0RSSI(21) type=16
+                    cambiumIDMSumPRQCh1RSSI(22) type=16
+                    cambiumIDMSumPRQPcktsNum(23) type=16
+                    cambiumIDMSummaryTable(30) type=0
+                      cambiumIDMSummaryEntry(1) type=0
+                        idmSummaryIntMAC(1) type=2 hint=255a
+                        idmSummaryIntCombRSSI(2) type=16
+                        idmSummaryIntCh0RSSI(3) type=16
+                        idmSummaryIntCh1RSSI(4) type=16
+                        idmSummaryIntSSID(5) type=2 hint=255a
+                  cambiumACSCfg(6) type=0
+                    acsEnable(1) type=16
+                    acsScanMinDwellTime(2) type=16
+                    acsScanMaxDwellTime(3) type=16
+                    acsControl(4) type=16
+              ptp250(250) type=0
+                configuration(1) type=0
+                  iPAddress(1) type=5
+                  subnetMask(2) type=5
+                  gatewayIPAddress(3) type=5
+                  remoteMACAddress(4) type=2
+                  masterSlaveMode(5) type=3
+                  maximumTransmitPower(6) type=16
+                  antennaGain(7) type=16
+                  cableLoss(8) type=16
+                  channelBandwidth(9) type=3
+                  remoteIPAddress(10) type=5
+                  linkName(11) type=2 hint=255a
+                  siteName(12) type=2 hint=255a
+                  configuredModulationMode(13) type=3
+                  band(14) type=3
+                  configuredRange(15) type=16
+                  channelSelection(16) type=12
+                  vlanTagging(17) type=3
+                  vlanId(18) type=16
+                  vlanPriority(19) type=16
+                  fixedModMode(22) type=3
+                  dualPayload(23) type=3
+                ethernet(2) type=0
+                  dataPortAutoNegotiation(1) type=3
+                  dataPortAutoNegAdvertisement(2) type=12
+                  dataPortStatus(3) type=3
+                  dataPortSpeedAndDuplex(4) type=3
+                licence(3) type=0
+                  regionCode(1) type=2 hint=255a
+                  productVariant(2) type=3
+                  productName(3) type=2 hint=255a
+                management(4) type=0
+                  installArmState(1) type=3
+                  tFTPServerIPAddress(2) type=5
+                  tFTPServerPortNumber(3) type=16
+                  tFTPSoftwareUpgradeFileName(4) type=2 hint=255a
+                  tFTPSoftwareUpgradeStatus(5) type=3
+                  tFTPSoftwareUpgradeStatusText(6) type=2 hint=255a
+                  tFTPSoftwareUpgradeStatusAdditionalText(7) type=2 hint=255a
+                phyStatus(5) type=0
+                  receivePower(1) type=16
+                  vectorError(2) type=16
+                  transmitPower(3) type=16
+                  linkLoss(5) type=16
+                  currentChannel(6) type=16
+                  extendedChannel(7) type=16
+                  receiveModulationMode(8) type=3
+                  transmitModulationMode(9) type=3
+                  currentFreqMHz(11) type=16
+                  extendedFreqMHz(12) type=16
+                  signalStrengthRatio(13) type=16
+                  searchState(14) type=3
+                  noiseFloor(15) type=16
+                  radarDetectChannel(16) type=16
+                  measuredRange(17) type=16
+                alarms(6) type=0
+                  noWirelessChannelAvailable(1) type=3
+                smtp(7) type=0
+                  sMTPServerIPAddress(1) type=5
+                  sMTPServerPortNumber(2) type=16
+                  sMTPSourceEmailAddress(3) type=2 hint=255a
+                  sMTPDestinationEmailAddress(4) type=2 hint=255a
+                  sMTPEnabledMessages(5) type=12
+                snmpControl(8) type=0
+                  sNMPCommunityTableNumber(1) type=16
+                  sNMPCommunityTable(2) type=0
+                    sNMPCommunityTableEntry(1) type=0
+                      sNMPCommunityTableIndex(1) type=16
+                      sNMPCommunityString(2) type=2
+                      sNMPCommunityAccess(3) type=3
+                      sNMPCommunityOid(4) type=1
+                  sNMPTrapTableNumber(3) type=16
+                  sNMPTrapTable(4) type=0
+                    sNMPTrapTableEntry(1) type=0
+                      sNMPTrapTableIndex(1) type=16
+                      sNMPTrapIPAddress(2) type=5
+                      sNMPTrapPortNumber(3) type=16
+                      sNMPTrapCommunity(4) type=2
+                      sNMPTrapVersion(5) type=3
+                  sNMPEnabledTraps(6) type=12
+                ntp(9) type=0
+                  nTPState(1) type=3
+                  nTPPollInterval(2) type=16
+                  nTPSync(3) type=3
+                  nTPLastSync(4) type=16
+                  systemClock(5) type=16
+                  timeZone(6) type=3
+                  nTPServerIp(7) type=5
+                  nTPServerPortNumber(8) type=16
+                versions(10) type=0
+                  softwareVersion(1) type=2 hint=255a
+                  hardwareVersion(2) type=2 hint=255a
+                  bootVersion(3) type=2 hint=255a
+                pubStats(11) type=0
+                  receiveDataRate(1) type=16
+                  transmitDataRate(2) type=16
+                  aggregateDataRate(3) type=16
+                  wirelessLinkStatus(4) type=3
+                ptpCompliance(97) type=26
+                ptpGroups(98) type=0
+                  configurationGroup(5) type=22
+                  ethernetGroup(6) type=22
+                  licenceGroup(8) type=22
+                  managementGroup(9) type=22
+                  phyStatusGroup(12) type=22
+                  alarmsGroup(13) type=22
+                  smtpGroup(15) type=22
+                  snmpControlGroup(16) type=22
+                  ntpGroup(17) type=22
+                  versionsGroup(19) type=22
+                  pubStatsGroup(20) type=22
+                  notificationsGroup(99) type=23
+                ptpTraps(99) type=0
+                  ptpTrapPrefix(0) type=0
+                    dataPortStatusTrap(1) type=21
+                    installArmStateTrap(2) type=21
+                    noWirelessChannelAvailableTrap(3) type=21
+                    linkStatusTrap(4) type=21
+                    radarDetectTrap(5) type=21
+        security(5) type=0
+        snmpV2(6) type=0
+          snmpDomains(1) type=0
+          snmpProxys(2) type=0
+          snmpModules(3) type=0
+  zeroDotZero(0) type=27

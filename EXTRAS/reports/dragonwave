@@ -1,0 +1,752 @@
+  org(3) type=0
+    dod(6) type=0
+      internet(1) type=0
+        directory(1) type=0
+        mgmt(2) type=0
+          mib-2(1) type=0
+            transmission(10) type=0
+            inetAddressMIB(76) type=24
+        experimental(3) type=0
+        private(4) type=0
+          enterprises(1) type=0
+            dragonwave(7262) type=24
+              harmony(4) type=0
+                lite(1) type=0
+                harmonyMultiRadio(2) type=0
+                harmonyFPH800(3) type=0
+                harmonyFM(4) type=0
+                mwr(5) type=0
+                  mwrPlatformObjId(1) type=0
+                    mwrEbandObjId(1) type=0
+                    mwrEnhancedObjId(2) type=0
+                  mwrSystem(2) type=0
+                    mwrSystemConfigurations(1) type=0
+                      mwrSystemType(1) type=3
+                      mwrPacketSwitchMode(2) type=3
+                      mwrSysSpeed(3) type=0
+                        mwrSystemCurrentSpeed(1) type=16
+                    mwrSystemStatus(2) type=0
+                      mwrSystemOperStatus(1) type=3
+                      mwrSystemFaultSeverity(2) type=3
+                      mwrSystemTemperature(3) type=16
+                      mwrPlatformType(4) type=3
+                      mwrPacketSwitchModeStatus(5) type=3
+                      mwrSystemTypeStatus(6) type=3
+                    mwrSystemCommands(3) type=0
+                      mwrResetSystem(1) type=3
+                      mwrSaveConfig(2) type=3
+                      mwrDeleteConfig(3) type=3
+                    mwrSystemInventory(4) type=0
+                      mwrHwInventory(1) type=0
+                        mwrMacAddress(1) type=2 hint=255a
+                        mwrTargetCfgFilePartNumber(2) type=2 hint=255a
+                        mwrUnitSerialNo(3) type=2 hint=255a
+                        mwrUnitAssemblyNo(4) type=2 hint=255a
+                        mwrBasebandSerialNo(5) type=2 hint=255a
+                        mwrBasebandAssemblyNo(6) type=2 hint=255a
+                        mwrPsuSerialNo(7) type=2 hint=255a
+                        mwrPsuAssemblyNo(8) type=2 hint=255a
+                        mwrRfSerialNo(9) type=2 hint=255a
+                        mwrRfAssemblyNo(10) type=2 hint=255a
+                        mwrRfRevisionNo(11) type=2 hint=255a
+                        mwrDiplexerSerialNo(12) type=2 hint=255a
+                        mwrDiplexerAssemblyNo(13) type=2 hint=255a
+                        mwrSystemCleiNo(14) type=2 hint=255a
+                      mwrSwInventory(2) type=0
+                        mwrSwInventoryTable(1) type=0
+                          mwrSwInventoryEntry(1) type=0
+                            mwrSwInvBank(1) type=3
+                            mwrSwInvStatus(2) type=3
+                            mwrSwInvOmniRelease(3) type=2 hint=255a
+                            mwrSwInvTargetConfFileVersion(4) type=2 hint=255a
+                            mwrSwInvMibVersion(5) type=2 hint=255a
+                            mwrSwInvSecurityVersion(6) type=2 hint=255a
+                    mwrSystemNotifications(5) type=0
+                      mwrSysTcfInvalid(1) type=21
+                      mwrSysTempOutOfLimit(2) type=21
+                  mwrSoftware(3) type=0
+                    mwrSoftwareConfigurations(1) type=0
+                    mwrSoftwareStatus(2) type=0
+                      mwrSwBackupBankStatus(1) type=3
+                    mwrSoftwareCommands(3) type=0
+                      mwrSwCommit(1) type=3
+                      mwrSwSwitchBanks(2) type=3
+                    mwrSoftwareNotifications(4) type=0
+                  mwrLicensing(4) type=0
+                    mwrLicensingConfigurations(1) type=0
+                      mwrLicenseUpgradeKey(1) type=2
+                    mwrLicensingStatus(2) type=0
+                      mwrLicenseCount(1) type=16
+                      mwrLicensedSpeed(2) type=16
+                      mwrLicenseFeaturesTable(3) type=0
+                        mwrLicenseFeaturesEntry(1) type=0
+                          mwrLicenseFeatureIndex(1) type=16
+                          mwrLicenseFeatureId(2) type=16
+                          mwrLicenseFeature(3) type=2 hint=255a
+                          mwrLicenseFeatureStatus(4) type=3
+                  mwrSyncE(5) type=0
+                    mwrSyncEConfigurations(1) type=0
+                      mwrSyncEState(1) type=3
+                      mwrSyncEPrimarySource(2) type=3
+                      mwrSyncESecondarySource(3) type=3
+                      mwrSyncEMemberPorts(4) type=2 hint=255a
+                      mwrSyncEForcedHoldover(5) type=2 hint=255a
+                      mwrSyncERevertive(6) type=2 hint=255a
+                      mwrSyncEWanderFilter(7) type=3
+                    mwrSyncEStatus(2) type=0
+                      mwrSyncEClockSource(1) type=3
+                      mwrSyncEAcquisitionStatus(2) type=2 hint=255a
+                    mwrSyncENotifications(3) type=0
+                      mwrSynceLostLock(1) type=21
+                      mwrSynceSecondarySourceInUse(2) type=21
+                      mwrSynceConfigMismatch(3) type=21
+                  mwrTiming(6) type=0
+                    mwrTimingConfigurations(1) type=0
+                      mwrDateTime(1) type=2 hint=2d-1d-1d,1d:1d:1d.1d,1a1d:1d
+                      mwrSntpEnable(2) type=3
+                      mwrSntpOffset(3) type=16
+                      mwrSntpServerTable(4) type=0
+                        mwrSntpServerEntry(1) type=0
+                          mwrSntpServerIndex(1) type=16
+                          mwrSntpServerDomain(2) type=3
+                          mwrSntpServerAddress(3) type=2
+                          mwrSntpServerStatus(4) type=3
+                          mwrSntpServerStratum(5) type=16
+                    mwrTimingStatus(2) type=0
+                      mwrTimingLastDateTimeChanged(1) type=2 hint=2d-1d-1d,1d:1d:1d.1d,1a1d:1d
+                      mwrTimingLastTimeAdjustment(2) type=16
+                      mwrTimingCummulativeTimeChange(3) type=16
+                    mwrTimingCommands(3) type=0
+                      mwrSntpRestoreDefault(1) type=3
+                    mwrTimingNotifications(4) type=0
+                      mwrSntpServerUnreachable(1) type=21
+                      mwrSystemTimeCorrected(2) type=21
+                  mwrAAA(7) type=0
+                    mwrAAAConfigurations(1) type=0
+                      mwrAAAUserAuthentication(1) type=3
+                      mwrRadiusConfigurations(2) type=0
+                        mwrRadiusAdminUserStrict(1) type=3
+                        mwrRadiusServerTimeOut(2) type=16
+                        mwrRadiusServerDeadTime(3) type=16
+                        mwrRadiusServerReTransmit(4) type=16
+                        mwrRadiusServerTable(5) type=0
+                          mwrRadiusServerEntry(1) type=0
+                            mwrRadiusServerIndex(1) type=16
+                            mwrRadiusCfgdHostDomain(2) type=3
+                            mwrRadiusCfgdHostAddress(3) type=2
+                            mwrRadiusCfgdHostKey(4) type=2 hint=255a
+                  mwrNetworking(8) type=0
+                    mwrNetworkingConfigurations(1) type=0
+                      mwrNetMgmtPriority(1) type=0
+                        mwrNetMgmtVlanPriority(1) type=16
+                        mwrNetMgmtDscp(2) type=16
+                      mwrNetMgmtIpv4(2) type=0
+                        mwrIpv4Table(1) type=0
+                          mwrIpv4Entry(1) type=0
+                            mwrIpv4Index(1) type=16
+                            mwrIpv4Address(2) type=5
+                            mwrIpv4SubnetMask(3) type=5
+                            mwrIpv4DefaultGateway(4) type=5
+                            mwrIpv4RowStatus(5) type=3
+                        mwrSecondaryGateway(2) type=5
+                      mwrNetMgmttIpv6(3) type=0
+                        mwrIpv6Table(1) type=0
+                          mwrIpv6Entry(1) type=0
+                            mwrIpv6Index(1) type=16
+                            mwrIpv6Domain(2) type=3
+                            mwrIpv6Address(3) type=2
+                            mwrIpv6Prefix(4) type=16
+                            mwrIpv6GatewayDomain(5) type=3
+                            mwrIpv6GatewayAddress(6) type=2
+                            mwrIpv6RowStatus(7) type=3
+                        mwrSecondaryIpv6GatewayDomain(2) type=3
+                        mwrSecondaryIpv6GatewayAddress(3) type=2
+                      mwrUserInterfaceMgmt(4) type=0
+                        mwrTelnetEnable(1) type=3
+                        mwrSshEnable(2) type=3
+                        mwrHttpEnable(3) type=3
+                        mwrHttpsEnable(4) type=3
+                        mwrSnmpv1v2cEnable(5) type=3
+                        mwrFtpEnable(6) type=3
+                      mwrFileTransfer(5) type=0
+                        mwrFileXfrDirection(1) type=3
+                        mwrFileXfrTable(2) type=0
+                          mwrFileXfrEntry(1) type=0
+                            mwrFileXfrSeqID(1) type=16
+                            mwrFileXfrIdentifier(2) type=3
+                            mwrFileXfrName(3) type=2 hint=255a
+                            mwrFileXfrMode(4) type=3
+                            mwrFileXfrServerDomain(5) type=3
+                            mwrFileXfrServerAddress(6) type=2
+                            mwrFileXfrClientDirection(7) type=3
+                            mwrFileXfrUserName(8) type=2 hint=255a
+                            mwrFileXfrPassword(9) type=2 hint=255a
+                            mwrFileXfrNumEntries(10) type=16
+                            mwrFileXfrStatus(11) type=3
+                            mwrFileXfrRowStatus(12) type=3
+                      mwrNetMgmtInterfaceTable(6) type=0
+                        mwrNetMgmtInterfaceEntry(1) type=0
+                          mwrNetMgmtInterfaceIndex(1) type=16
+                          mwrNetMgmtVlanId(2) type=16
+                          mwrNetMgmtInterface1(3) type=3
+                          mwrNetMgmtInterface1Mode(4) type=3
+                          mwrNetMgmtInterface1Tagged(5) type=3
+                          mwrNetMgmtInterface2(6) type=3
+                          mwrNetMgmtInterface2Mode(7) type=3
+                          mwrNetMgmtInterface2Tagged(8) type=3
+                          mwrNetMgmtInterface3(9) type=3
+                          mwrNetMgmtInterface3Mode(10) type=3
+                          mwrNetMgmtInterface3Tagged(11) type=3
+                          mwrNetMgmtInterface4(12) type=3
+                          mwrNetMgmtInterface4Mode(13) type=3
+                          mwrNetMgmtInterface4Tagged(14) type=3
+                          mwrNetMgmtInterfaceRowStatus(15) type=3
+                    mwrNetworkingStatus(2) type=0
+                      mwrMaintenanceIpv4(1) type=0
+                        mwrMaintenanceIpv4Address(1) type=5
+                        mwrMaintenanceSubnetMask(2) type=5
+                        mwrActiveIpv4Gateway(3) type=5
+                      mwrMaintenanceIpv6(2) type=0
+                        mwrIpv6LinkLocalIPrefix(1) type=16
+                        mwrIpv6LinkLocalAddress(2) type=2
+                        mwrActiveIpv6Gateway(3) type=2
+                    mwrPeerNetworkingStatus(3) type=0
+                      mwrPeerMacAddress(1) type=2 hint=255a
+                      mwrPeerIpv4Address(2) type=5
+                      mwrPeerIpv4SubnetMask(3) type=5
+                      mwrPeerIpv4DefaultGateway(4) type=5
+                      mwrPeerIpv6Prefix(5) type=16
+                      mwrPeerIpv6Domain(6) type=3
+                      mwrPeerIpv6Address(7) type=2
+                      mwrPeerIpv6GatewayDomain(8) type=3
+                      mwrPeerIpv6GatewayAddress(9) type=2
+                      mwrPeerVlanId(10) type=16
+                      mwrPeerVlanPriority(11) type=16
+                      mwrPeerDscp(12) type=16
+                    mwrNetworkingNotifications(4) type=0
+                  mwrEthernet(9) type=0
+                    mwrEthernetConfigurations(1) type=0
+                      mwrQos(1) type=0
+                        mwrQosState(1) type=3
+                        mwrCosSource(2) type=3
+                        mwrOuterTpid(3) type=2 hint=255a
+                        mwrInnerTpid(4) type=2 hint=255a
+                        mwrCosTable(5) type=0
+                          mwrCosEntry(1) type=0
+                            mwrCosIndex(1) type=3
+                            mwrCos0(2) type=3
+                            mwrCos1(3) type=3
+                            mwrCos2(4) type=3
+                            mwrCos3(5) type=3
+                            mwrCos4(6) type=3
+                            mwrCos5(7) type=3
+                            mwrCos6(8) type=3
+                            mwrCos7(9) type=3
+                            mwrCosRowStatus(10) type=3
+                        mwrCosDefValueTable(6) type=0
+                          mwrCosDefValueEntry(1) type=0
+                            mwrCosDefValueIndex(1) type=3
+                            mwrCosDefValue(2) type=16
+                        mwrCirQTable(7) type=0
+                          mwrCirQEntry(1) type=0
+                            mwrCirQIndex(1) type=3
+                            mwrCirQ1(2) type=16
+                            mwrCirQ2(3) type=16
+                            mwrCirQ3(4) type=16
+                            mwrCirQ4(5) type=16
+                            mwrCirQ5(6) type=16
+                            mwrCirQ6(7) type=16
+                            mwrCirQ7(8) type=16
+                            mwrCirQ8(9) type=16
+                            mwrCirQRowStatus(10) type=3
+                        mwrCbsQTable(8) type=0
+                          mwrCbsQEntry(1) type=0
+                            mwrCbsQIndex(1) type=3
+                            mwrCbsQ1(2) type=16
+                            mwrCbsQ2(3) type=16
+                            mwrCbsQ3(4) type=16
+                            mwrCbsQ4(5) type=16
+                            mwrCbsQ5(6) type=16
+                            mwrCbsQ6(7) type=16
+                            mwrCbsQ7(8) type=16
+                            mwrCbsQ8(9) type=16
+                            mwrCbsQRowStatus(10) type=3
+                        mwrWeightQTable(9) type=0
+                          mwrWeightQEntry(1) type=0
+                            mwrWeightQIndex(1) type=3
+                            mwrWeightQ1(2) type=16
+                            mwrWeightQ2(3) type=16
+                            mwrWeightQ3(4) type=16
+                            mwrWeightQ4(5) type=16
+                            mwrWeightQ5(6) type=16
+                            mwrWeightQ6(7) type=16
+                            mwrWeightQ7(8) type=16
+                            mwrWeightQ8(9) type=16
+                            mwrWeightQRowStatus(10) type=3
+                        mwrQbsQTable(10) type=0
+                          mwrQbsQEntry(1) type=0
+                            mwrQbsQIndex(1) type=3
+                            mwrQbsQ1(2) type=16
+                            mwrQbsQ2(3) type=16
+                            mwrQbsQ3(4) type=16
+                            mwrQbsQ4(5) type=16
+                            mwrQbsQ5(6) type=16
+                            mwrQbsQ6(7) type=16
+                            mwrQbsQ7(8) type=16
+                            mwrQbsQ8(9) type=16
+                            mwrQbsQRowStatus(10) type=3
+                        mwrPolicyQTable(11) type=0
+                          mwrPolicyQEntry(1) type=0
+                            mwrPolicyQIndex(1) type=3
+                            mwrPolicyQ1(2) type=3
+                            mwrPolicyQ2(3) type=3
+                            mwrPolicyQ3(4) type=3
+                            mwrPolicyQ4(5) type=3
+                            mwrPolicyQ5(6) type=3
+                            mwrPolicyQ6(7) type=3
+                            mwrPolicyQ7(8) type=3
+                            mwrPolicyQ8(9) type=3
+                            mwrPolicyQRowStatus(10) type=3
+                        mwrUserClassTable(12) type=0
+                          mwrUserClassEntry(1) type=0
+                            mwrUserClassIndex(1) type=3
+                            mwrUserClassOffset(2) type=16
+                            mwrUserClassValue(3) type=2 hint=255a
+                            mwrUserClassMask(4) type=2 hint=255a
+                        mwrUserFlowTable(13) type=0
+                          mwrUserFlowEntry(1) type=0
+                            mwrUserFlowIndex(1) type=3
+                            mwrUserFlowFilter(2) type=2 hint=255a
+                        mwrUserFlowMappingTable(14) type=0
+                          mwrUserFlowMappingEntry(1) type=0
+                            mwrUserFlowMappingIndex(1) type=3
+                            mwrUserFlowMappingState(2) type=3
+                            mwrUserFlowMapping1Q(3) type=3
+                            mwrUserFlowMapping2Q(4) type=3
+                            mwrUserFlowMapping3Q(5) type=3
+                            mwrUserFlowMapping4Q(6) type=3
+                            mwrUserFlowMappingRowStatus(7) type=3
+                        mwrUserFlowMappingBridgeModeTable(15) type=0
+                          mwrUserFlowMappingBridgeModeEntry(1) type=0
+                            mwrUserFlowMappingBridgeModeIndex(1) type=3
+                            mwrUserFlowMappingBridgeModeState(2) type=3
+                            mwrUserFlowMappingBridgeModeQ(3) type=3
+                            mwrUserFlowMappingBridgeModeRowStatus(4) type=3
+                      mwrEthThresholdAlarm(2) type=0
+                        mwrPortThresholdAlarmTable(1) type=0
+                          mwrPortThresholdAlarmEntry(1) type=0
+                            mwrPortThresholdAlarmIndex(1) type=16
+                            mwrDroppedPktsThresholdParams(2) type=2 hint=255a
+                            mwrOutBWUtilizationThresholdParams(3) type=2 hint=255a
+                            mwrThroughputThresholdParams(4) type=2 hint=255a
+                        mwrRadioQThresholdAlarmTable(2) type=0
+                          mwrRadioQThresholdAlarmEntry(1) type=0
+                            mwrRadioQThresholdAlarmIndex(1) type=3
+                            mwrRadioQDepthThresholdParams(2) type=2 hint=255a
+                            mwrRadioQDroppedPktsThresholdParams(3) type=2 hint=255a
+                    mwrEthernetStatus(2) type=0
+                    mwrEthernetPerformance(3) type=0
+                      mwrEnetPerfPortStatsTable(1) type=0
+                        mwrEnetPerfPortStatsEntry(1) type=0
+                          mwrEnetPortStatsIndex(1) type=3
+                          mwrPortStatsInOctet(2) type=11
+                          mwrPortStatsInGoodPkts(3) type=11
+                          mwrPortStatsInErrPkts(4) type=11
+                          mwrPortStatsInDiscardPkts(5) type=11
+                          mwrPortStatsOutOctets(6) type=11
+                          mwrPortStatsOutGoodPkts(7) type=11
+                          mwrPortStatsOutErrPkts(8) type=11
+                          mwrPortStatsOutDiscardPkts(9) type=11
+                          mwrPortStatsOutBwUtilization(10) type=16 units=%
+                          mwrPortStatsInBwUtilization(11) type=16 units=%
+                          mwrPortStatsInDataRate(12) type=16 units=Mbps
+                          mwrPortStatsThroughput(13) type=16 units=Mbps
+                      mwrEnetPerfPortStats32BitTable(2) type=0
+                        mwrEnetPerfPortStats32BitEntry(1) type=0
+                          mwrPortStats32BitIndex(1) type=3
+                          mwrPortStatsInOctet32Bit(2) type=6
+                          mwrPortStatsInGoodPkts32Bit(3) type=6
+                          mwrPortStatsInErrPkts32Bit(4) type=6
+                          mwrPortStatsInDiscardPkts32Bit(5) type=6
+                          mwrPortStatsOutOctets32Bit(6) type=6
+                          mwrPortStatsOutGoodPkts32Bit(7) type=6
+                          mwrPortStatsOutErrPkts32Bit(8) type=6
+                          mwrPortStatsOutDiscardPkts32Bit(9) type=6
+                      mwrEnetPerfRadioQStatsTable(3) type=0
+                        mwrEnetPerfRadioQStatsEntry(1) type=0
+                          mwrRadioQStatsIndex(1) type=3
+                          mwrRadioQStatsInGoodPkts(2) type=11
+                          mwrRadioQStatsInDiscardPkts(3) type=11
+                          mwrRadioQStatsOutBwUtilization(4) type=16 units=%
+                          mwrRadioQStatsInDataRate(5) type=16 units=Mbps
+                          mwrRadioQStatsThroughput(6) type=16 units=Mbps
+                      mwrEnetPerfRadioQStats32BitTable(4) type=0
+                        mwrEnetPerfRadioQStats32BitEntry(1) type=0
+                          mwrRadioQStats32BitIndex(1) type=3
+                          mwrRadioQStatsInGoodPkts32Bit(2) type=6
+                          mwrRadioQStatsDiscardPkts32Bit(3) type=6
+                    mwrEthernetNotifications(4) type=0
+                      mwrDroppedPktsThreshold(1) type=21
+                      mwrRadioQDroppedPktsThreshold(2) type=21
+                      mwrRadioQDepthThreshold(3) type=21
+                      mwrOutBWUtilizationThreshold(4) type=21
+                      mwrThroughputThreshold(5) type=21
+                  mwrAcm(10) type=0
+                    mwrAcmConfigurations(1) type=0
+                      mwrAcmManualMode(1) type=3
+                      mwrAcmState(2) type=3
+                      mwrAcmWaitToRestore(3) type=16
+                      mwrAcmModeTable(4) type=0
+                        mwrAcmModeEntry(1) type=0
+                          mwrAcmModeIndex(1) type=16
+                          mwrAcmTxProfileName(2) type=2 hint=255a
+                          mwrAcmTxProfileRange(3) type=3
+                    mwrAcmStatus(2) type=0
+                      mwrAcmStatusTable(1) type=0
+                        mwrAcmStatusEntry(1) type=0
+                          mwrAcmStatusIndex(1) type=3
+                          mwrAcmActualTxProfile(2) type=2 hint=255a
+                    mwrAcmDiagnostics(3) type=0
+                      mwrAcmDiagTable(1) type=0
+                        mwrAcmDiagEntry(1) type=0
+                          mwrAcmDiagIndex(1) type=3
+                          mwrAcmDiagnose(2) type=3
+                          mwrAcmDiagnosticResult(3) type=2 hint=255a
+                    mwrAcmNotifications(4) type=0
+                      mwrAcmConfigMismatch(1) type=21
+                      mwrAcmProfileLowered(2) type=21
+                      mwrAcmProfileChanged(3) type=21
+                  mwrAtpc(11) type=0
+                    mwrAtpcConfigurations(1) type=0
+                      mwrAtpcConfigurationsTable(1) type=0
+                        mwrAtpcConfigurationsEntry(1) type=0
+                          mwrAtpcConfigIndex(1) type=3
+                          mwrAtpcState(2) type=3
+                          mwrAtpcCoordinatedPower(3) type=16 units=dB
+                          mwrAtpcCoordinatedPowerEnable(4) type=3
+                          mwrAtpcMinTxPower(5) type=16 units=dB
+                          mwrAtpcMaxTxPower(6) type=16 units=dB
+                          mwrAtpcRslTarget(7) type=16
+                          mwrAtpcRslTargetUseDefault(8) type=3
+                    mwrAtpcStatus(2) type=0
+                      mwrAtpcStatusTable(1) type=0
+                        mwrAtpcStatusEntry(1) type=0
+                          mwrAtpcStatusIndex(1) type=3
+                          mwrAtpcRunningStatus(2) type=3
+                          mwrAtpcDefaultRslTarget(3) type=16
+                          mwrAtpcActualMinTxPower(4) type=16
+                          mwrAtpcActualMaxTxPower(5) type=16
+                          mwrAtpcActualCoordinatedPower(6) type=16
+                          mwrAtpcPeerRslTarget(7) type=16
+                          mwrAtpcMinRslTarget(8) type=16
+                          mwrAtpcMaxRslTarget(9) type=16
+                          mwrAtpcPeerRsl(10) type=16
+                    mwrAtpcNotifications(3) type=0
+                      mwrAtpcConfigMismatch(1) type=21
+                      mwrAtpcAutoDisabled(2) type=21
+                  mwrRadio(12) type=0
+                    mwrEmcRadioConfigurations(201) type=0
+                      mwrEmcRadioConfigurationsTable(1) type=0
+                        mwrEmcRadioConfigurationsEntry(1) type=0
+                          mwrEmcRadioConfigIndex(1) type=3
+                          mwrEmcRadioTxState(2) type=3
+                          mwrEmcRadioTxPower(3) type=16 units=dB
+                          mwrEmcRadioTxDownTime(4) type=16 units=sec
+                          mwrEmcRadioRxFrequency(5) type=16 units=kHz
+                          mwrEmcRadioTxFrequency(6) type=16 units=kHz
+                      mwrEmcRadioProfileTable(2) type=0
+                        mwrEmcRadioProfileEntry(1) type=0
+                          mwrEmcRadioStandardMode(1) type=2 hint=255a
+                          mwrEmcRadioChannelBw(2) type=2 hint=255a units=MHz
+                          mwrEmcRadioStaticTxProfile(3) type=2 hint=255a
+                          mwrEmcRadioProgrammedProfile(4) type=3
+                      mwrEmcRadioThresholdAlarmTable(3) type=0
+                        mwrEmcRadioThresholdAlarmEntry(1) type=0
+                          mwrEmcRadioThresholdIndex(1) type=3
+                          mwrEmcRadioRslBelowThresholdParams(2) type=2 hint=255a
+                          mwrEmcRadioTxAboveThresholdParams(3) type=2 hint=255a
+                      mwrEmcRadioChCfgSynchEnable(4) type=3
+                    mwrEmcRadioStatus(202) type=0
+                      mwrEmcRadioStatusTable(1) type=0
+                        mwrEmcRadioStatusEntry(1) type=0
+                          mwrEmcRadioStatusIndex(1) type=3
+                          mwrEmcRadioOperStatus(2) type=3
+                          mwrEmcRadioTRSpacing(3) type=16 units=kHz
+                          mwrEmcRadioActualTxStatus(4) type=3
+                          mwrEmcRadioRxFreqMin(5) type=16 units=kHz
+                          mwrEmcRadioRxFreqMax(6) type=16 units=kHz
+                          mwrEmcRadioTxFreqMin(7) type=16 units=kHz
+                          mwrEmcRadioTxFreqMax(8) type=16 units=kHz
+                          mwrEmcRadioTxPowerMin(9) type=16 units=dB
+                          mwrEmcRadioTxPowerMax(10) type=16 units=dB
+                          mwrEmcRadioLinkStatus(11) type=3
+                    mwrEmcRadioPerformance(203) type=0
+                      mwrEmcRadioPerfStatsTable(1) type=0
+                        mwrEmcRadioPerfStatsEntry(1) type=0
+                          mwrEmcRadioStatsIndex(1) type=3
+                          mwrEmcRadioTxFrames(2) type=11
+                          mwrEmcRadioRxGoodFrames(3) type=11
+                          mwrEmcRadioRxErrsFrames(4) type=11
+                          mwrEmcRadioRSL(5) type=16
+                          mwrEmcRadioEqualizerStress(6) type=16
+                          mwrEmcRadioSNR(7) type=16 units=dB
+                          mwrEmcRadioLinkAvailability(8) type=6 units=sec
+                          mwrEmcRadioActualTxPower(9) type=16
+                          mwrEmcRadioActualTxProfile(10) type=2 hint=255a
+                      mwrEmcRadioPerfStats32BitTable(2) type=0
+                        mwrEmcRadioPerfStats32BitEntry(1) type=0
+                          mwrEmcRadioStats32BitIndex(1) type=3
+                          mwrEmcRadioTxFrames32Bit(2) type=6
+                          mwrEmcRadioRxGoodFrames32Bit(3) type=6
+                          mwrEmcRadioRxErrsFrames32Bit(4) type=6
+                    mwrEmcRadioNotifications(204) type=0
+                      mwrEmcRadioRxLossOfSync(1) type=21
+                      mwrEmcRadioFailure(2) type=21
+                      mwrEmcRadioCalUnavailable(3) type=21
+                      mwrEmcRadioRslBelowThreshold(4) type=21
+                      mwrEmcRadioTxlAboveThreshold(5) type=21
+                      mwrEmcRadioConfigMismatch(6) type=21
+                  mwrCompression(13) type=0
+                    mwrCompressionConfigurations(1) type=0
+                      mwrBacRecordAvgPeriod(1) type=16
+                      mwrBacTable(2) type=0
+                        mwrBacEntry(1) type=0
+                          mwrBacQIndex(1) type=3
+                          mwrBacQEnable(2) type=3
+                          mwrBacQBlockSize(3) type=16
+                          mwrBacRecordLogging(4) type=3
+                      mwrHcQTable(3) type=0
+                        mwrHcQEntry(1) type=0
+                          mwrHcQIndex(1) type=3
+                          mwrHcQ1(2) type=3
+                          mwrHcQ2(3) type=3
+                          mwrHcQ3(4) type=3
+                          mwrHcQ4(5) type=3
+                          mwrHcQ5(6) type=3
+                          mwrHcQ6(7) type=3
+                          mwrHcQ7(8) type=3
+                          mwrHcQ8(9) type=3
+                          mwrHcQRowStatus(10) type=3
+                    mwrCompressionStatus(2) type=0
+                      mwrBacStatusTable(1) type=0
+                        mwrBacStatusEntry(1) type=0
+                          mwrBacStatusQIndex(1) type=3
+                          mwrBacUncompressedRatio(2) type=2 hint=255a
+                          mwrBacGain(3) type=2 hint=255a
+                    mwrCompressionNotifications(3) type=0
+                  mwrEvents(14) type=0
+                    mwrEventsConfigurations(1) type=0
+                      mwrEventConfigTable(1) type=0
+                        mwrEventConfigEntry(1) type=0
+                          mwrEventConfigIndex(1) type=15
+                          mwrEventInstanceIndex(2) type=15
+                          mwrEventConfigSeverity(3) type=3
+                          mwrEventName(4) type=2 hint=255a
+                          mwrAlarmConfigState(5) type=3
+                          mwrTrapConfigState(6) type=3
+                          mwrLogEventState(7) type=3
+                  mwrLogs(15) type=0
+                    mwrLogsConfigurations(1) type=0
+                      mwrEventLogEnable(1) type=3
+                      mwrPerfmLogEnable(2) type=3
+                      mwrPerfmLogInterval(3) type=2 hint=255a
+                      mwrSysLogServerTable(4) type=0
+                        mwrSysLogServerEntry(1) type=0
+                          mwrSysLogServerIndex(1) type=16
+                          mwrSysLogEnable(2) type=3
+                          mwrSysLogHostDomain(3) type=3
+                          mwrSysLogHostAddress(4) type=2
+                  mwrPM(16) type=0
+                    mwrPMConfigurations(1) type=0
+                      mwrPmRspiThresholdTable(1) type=0
+                        mwrPmRspiThresholdEntry(1) type=0
+                          mwrPmRspiThrIndex(1) type=3
+                          mwrPmRLT1(2) type=16
+                          mwrPmRLT2(3) type=16
+                          mwrPmRLT3(4) type=16
+                          mwrPmRLT4(5) type=16
+                          mwrPmTLT1(6) type=16
+                          mwrPmTLT2(7) type=16
+                          mwrPmRspiThrRowStatus(8) type=3
+                      mwrPmBwThresholdTable(2) type=0
+                        mwrPmBwThresholdEntry(1) type=0
+                          mwrPmBWThrIndex(1) type=16
+                          mwrPmBWT1(2) type=16
+                          mwrPmBWT2(3) type=16
+                          mwrPmBWT3(4) type=16
+                          mwrPmBWT4(5) type=16
+                          mwrPmBWT5(6) type=16
+                          mwrPmBWT6(7) type=16
+                          mwrPmBWT7(8) type=16
+                          mwrPmBWT8(9) type=16
+                          mwrPmBWT9(10) type=16
+                          mwrPmBWT10(11) type=16
+                          mwrPmBWTRowStatus(12) type=3
+                      mwrPmTpThresholdTable(3) type=0
+                        mwrPmTpThresholdEntry(1) type=0
+                          mwrPmTPThrIndex(1) type=16
+                          mwrPmTPT1(2) type=16
+                          mwrPmTPT2(3) type=16
+                          mwrPmTPT3(4) type=16
+                          mwrPmTPT4(5) type=16
+                          mwrPmTPT5(6) type=16
+                          mwrPmTPT6(7) type=16
+                          mwrPmTPT7(8) type=16
+                          mwrPmTPT8(9) type=16
+                          mwrPmTPT9(10) type=16
+                          mwrPmTPT10(11) type=16
+                          mwrPmTPTRowStatus(12) type=3
+                      mwrPmAdvThresholdTable(4) type=0
+                        mwrPmAdvThresholdEntry(1) type=0
+                          mwrPmAdvThrIndex(1) type=16
+                          mwrPmAdvTxHitsT1(2) type=16
+                          mwrPmAdvRxHitsT1(3) type=16
+                          mwrPmAdvRowStatus(4) type=3
+                    mwrPMStatus(2) type=0
+                      mwrPmRspiTable(1) type=0
+                        mwrPmRspiEntry(1) type=0
+                          mwrPmRspiStatusIndex(1) type=3
+                          mwrPmRspiInterval(2) type=3
+                          mwrPmRspiIntervalID(3) type=16
+                          mwrPmRspiMeasSuspect(4) type=3
+                          mwrPmRspiMeasIntervalStatus(5) type=3
+                          mwrPmRspiMeasTimeLength(6) type=16 units=seconds
+                          mwrPmRspiMeasTLTMMin(7) type=16
+                          mwrPmRspiMeasTLTMMax(8) type=16
+                          mwrPmRspiMeasTLTS1(9) type=16 units=seconds
+                          mwrPmRspiMeasTLTS2(10) type=16 units=seconds
+                          mwrPmRspiMeasRLTMMin(11) type=16
+                          mwrPmRspiMeasRLTMMax(12) type=16
+                          mwrPmRspiMeasRLTS1(13) type=16 units=seconds
+                          mwrPmRspiMeasRLTS2(14) type=16 units=seconds
+                          mwrPmRspiMeasRLTS3(15) type=16 units=seconds
+                          mwrPmRspiMeasRLTS4(16) type=16 units=seconds
+                      mwrPmBWTable(2) type=0
+                        mwrPmBWEntry(1) type=0
+                          mwrPmBWStatusIndex(1) type=16
+                          mwrPmBWInterval(2) type=3
+                          mwrPmBWIntervalID(3) type=16
+                          mwrPmBWMeasSuspect(4) type=3
+                          mwrPmBWMeasIntervalStatus(5) type=3
+                          mwrPmBWMeasTimeLength(6) type=16
+                          mwrPmMeasBWTS1(7) type=16
+                          mwrPmMeasBWTS2(8) type=16
+                          mwrPmMeasBWTS3(9) type=16
+                          mwrPmMeasBWTS4(10) type=16
+                          mwrPmMeasBWTS5(11) type=16
+                          mwrPmMeasBWTS6(12) type=16
+                          mwrPmMeasBWTS7(13) type=16
+                          mwrPmMeasBWTS8(14) type=16
+                          mwrPmMeasBWTS9(15) type=16
+                          mwrPmMeasBWTS10(16) type=16
+                      mwrPmTPTable(3) type=0
+                        mwrPmTPEntry(1) type=0
+                          mwrPmTPStatusIndex(1) type=16
+                          mwrPmTPInterval(2) type=3
+                          mwrPmTPIntervalID(3) type=16
+                          mwrPmTPMeasSuspect(4) type=3
+                          mwrPmTPMeasIntervalStatus(5) type=3
+                          mwrPmTPMeasTimeLength(6) type=16
+                          mwrPmMeasTPTS1(7) type=16
+                          mwrPmMeasTPTS2(8) type=16
+                          mwrPmMeasTPTS3(9) type=16
+                          mwrPmMeasTPTS4(10) type=16
+                          mwrPmMeasTPTS5(11) type=16
+                          mwrPmMeasTPTS6(12) type=16
+                          mwrPmMeasTPTS7(13) type=16
+                          mwrPmMeasTPTS8(14) type=16
+                          mwrPmMeasTPTS9(15) type=16
+                          mwrPmMeasTPTS10(16) type=16
+                      mwrPmAdvTable(4) type=0
+                        mwrPmAdvEntry(1) type=0
+                          mwrPmAdvStatusIndex(1) type=16
+                          mwrPmAdvInterval(2) type=3
+                          mwrPmAdvIntervalID(3) type=16
+                          mwrPmAdvMeasSuspect(4) type=3
+                          mwrPmAdvMeasIntervalStatus(5) type=3
+                          mwrPmAdvMeasTimeLength(6) type=16
+                          mwrPmAdvTxCapPeak(7) type=16
+                          mwrPmAdvTxCapRatio(8) type=16
+                          mwrPmAdvTxCapAvg(9) type=16
+                          mwrPmAdvTxCapAvgRatio(10) type=16
+                          mwrPmAdvTxCapHits(11) type=16
+                          mwrPmAdvRxCapPeak(12) type=16
+                          mwrPmAdvRxCapRatio(13) type=16
+                          mwrPmAdvRxCapAvg(14) type=16
+                          mwrPmAdvRxCapHits(15) type=16
+                    mwrPMNotifications(3) type=0
+                  mwrUserMgmt(17) type=0
+                    mwrUserConfiguration(1) type=0
+                    mwrUserStatus(2) type=0
+                      mwrUserSessionTable(1) type=0
+                        mwrUserSessionEntry(1) type=0
+                          mwrUserIndex(1) type=3
+                          mwrUserName(2) type=2 hint=255a
+                          mwrUserConnectionType(3) type=2 hint=255a
+                          mwrUserConnectionState(4) type=3
+                    mwrUserNotifications(3) type=0
+                      mwrUserSession(1) type=21
+                      mwrUserLoginFailed(2) type=21
+                      mwrUserAccountChanged(3) type=21
+                      mwrUserPasswordChanged(4) type=21
+                  mwrModIdentity(1000) type=24
+                  mwrRadioMcModIdentity(1003) type=24
+              equipmentCommon(20) type=0
+                equipmentCommonObjects(1) type=0
+                  equipmentConfigLog(1) type=0
+                    equipmentEventLogEntryLimit(1) type=15
+                  equipmentLog(2) type=0
+                    equipmentEventLogLastEntry(1) type=15
+                    equipmentEventLogTable(2) type=0
+                      equipmentEventLogEntry(1) type=0
+                        equipmentEventLogIndex(1) type=15
+                        equipmentEventLogTime(2) type=8
+                        equipmentEventLogDateAndTime(3) type=2 hint=2d-1d-1d,1d:1d:1d.1d,1a1d:1d
+                        equipmentEventLogNotificationID(4) type=1
+                        equipmentEventLogVariables(5) type=15
+                    equipmentEventLogVariableTable(3) type=0
+                      equipmentEventLogVariableEntry(1) type=0
+                        equipmentEventLogVariableIndex(1) type=15
+                        equipmentEventLogVariableID(2) type=1
+                        equipmentEventLogVariableValueType(3) type=3
+                        equipmentEventLogVariableCounter32Val(4) type=6
+                        equipmentEventLogVariableUnsigned32Val(5) type=15
+                        equipmentEventLogVariableTimeTicksVal(6) type=8
+                        equipmentEventLogVariableInteger32Val(7) type=16
+                        equipmentEventLogVariableOctetStringVal(8) type=2
+                        equipmentEventLogVariableIpAddressVal(9) type=5
+                        equipmentEventLogVariableOidVal(10) type=1
+                        equipmentEventLogVariableCounter64Val(11) type=11
+                  equipmentAlarmList(3) type=0
+                    equipmentAlarmActiveLastChanged(1) type=8
+                    equipmentAlarmActiveRowCounter(2) type=6
+                    equipmentAlarmActiveTable(3) type=0
+                      equipmentAlarmActiveEntry(1) type=0
+                        equipmentAlarmActiveIndex(1) type=15
+                        equipmentAlarmActiveTime(2) type=8
+                        equipmentAlarmActiveDateAndTime(3) type=2 hint=2d-1d-1d,1d:1d:1d.1d,1a1d:1d
+                        equipmentAlarmActiveName(4) type=2 hint=255a
+                        equipmentAlarmActiveID(5) type=16
+                        equipmentAlarmActiveInstance(6) type=15
+                        equipmentAlarmActiveTrapOID(7) type=1
+                        equipmentAlarmActiveSeverity(8) type=3
+                        equipmentAlarmActiveConditionId(9) type=2 hint=255a
+                  equipmentSnmpTrap(4) type=0
+                    equipmentOutTrapsCounter(1) type=6
+                    equipmentLastOutTrapTimeStamp(2) type=8
+                    equipmentTrapInfo(3) type=2 hint=255a
+                equipmentPseudoEventsObjects(2) type=0
+                  equipmentConfChangeOid(1) type=1
+                  equipmentConfChangeMode(2) type=3
+                  equipmentConfChangeNotification(3) type=21
+                equipmentMirrorObjects(3) type=0
+                  equipmentMirrorFlag(1) type=16
+                  equipmentMirrorColdStart(2) type=21
+                equipmentCommonMib(100) type=24
+              switch(50) type=0
+        security(5) type=0
+        snmpV2(6) type=0
+          snmpDomains(1) type=0
+          snmpProxys(2) type=0
+          snmpModules(3) type=0
+  zeroDotZero(0) type=27

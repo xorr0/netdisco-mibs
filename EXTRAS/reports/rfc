@@ -30412,6 +30412,8 @@
       standards-association-numbers-series-standards(2) type=0
       standards-association-numbered-series-standards(2) type=0
       standards-association-numbers-series-standards(2) type=0
+      standards-association-numbered-series-standards(2) type=0
+      standards-association-numbers-series-standards(2) type=0
         lan-man-stds(802) type=0
           ieee802dot1(1) type=0
             ieee802dot1mibs(1) type=0
@@ -30959,6 +30961,7 @@
                     ieee8021MstpCompliance(1) type=26
                     ieee8021MstpComplianceV2(2) type=26
               ieee8021CfmV2Mib(7) type=24
+              ieee8021cfmMIB(8) type=24
               ieee8021CfmMib(8) type=24
                 dot1agNotifications(0) type=0
                   dot1agCfmFaultAlarm(1) type=21
@@ -30991,10 +30994,15 @@
                     dot1agCfmDefaultMdDefIdPermission(3) type=3
                     dot1agCfmDefaultMdTable(4) type=0
                       dot1agCfmDefaultMdEntry(1) type=0
+                        dot1agCfmDefaultMdPrimaryVid(1) type=16 hint=d
                         dot1agCfmDefaultMdComponentId(1) type=15 hint=d
+                        dot1agCfmDefaultMdStatus(2) type=3
                         dot1agCfmDefaultMdPrimaryVid(2) type=16 hint=d
+                        dot1agCfmDefaultMdLevel(3) type=16 hint=d
                         dot1agCfmDefaultMdStatus(3) type=3
+                        dot1agCfmDefaultMdMhfCreation(4) type=3
                         dot1agCfmDefaultMdLevel(4) type=16 hint=d
+                        dot1agCfmDefaultMdIdPermission(5) type=3
                         dot1agCfmDefaultMdMhfCreation(5) type=3
                         dot1agCfmDefaultMdIdPermission(6) type=3
                     ieee8021CfmDefaultMdTable(5) type=0
@@ -31009,8 +31017,11 @@
                   dot1agCfmVlan(3) type=0
                     dot1agCfmVlanTable(1) type=0
                       dot1agCfmVlanEntry(1) type=0
+                        dot1agCfmVlanVid(1) type=16 hint=d
                         dot1agCfmVlanComponentId(1) type=15 hint=d
+                        dot1agCfmVlanPrimaryVid(2) type=16 hint=d
                         dot1agCfmVlanVid(2) type=16 hint=d
+                        dot1agCfmVlanRowStatus(3) type=3
                         dot1agCfmVlanPrimaryVid(3) type=16 hint=d
                         dot1agCfmVlanRowStatus(4) type=3
                     ieee8021CfmVlanTable(2) type=0
@@ -31041,16 +31052,27 @@
                         dot1agCfmMdMdLevel(4) type=16 hint=d
                         dot1agCfmMdMhfCreation(5) type=3
                         dot1agCfmMdMhfIdPermission(6) type=3
+                        dot1agCfmMdMaTableNextIndex(7) type=15 hint=d
                         dot1agCfmMdMaNextIndex(7) type=15 hint=d
                         dot1agCfmMdRowStatus(8) type=3
                   dot1agCfmMa(6) type=0
+                    dot1agCfmMaTable(1) type=0
                     dot1agCfmMaNetTable(1) type=0
+                      dot1agCfmMaEntry(1) type=0
                       dot1agCfmMaNetEntry(1) type=0
                         dot1agCfmMaIndex(1) type=15
+                        dot1agCfmMaPrimaryVlanId(2) type=16 hint=d
                         dot1agCfmMaNetFormat(2) type=3
+                        dot1agCfmMaFormat(3) type=3
                         dot1agCfmMaNetName(3) type=2
+                        dot1agCfmMaName(4) type=2
                         dot1agCfmMaNetCcmInterval(4) type=3
+                        dot1agCfmMaMhfCreation(5) type=3
                         dot1agCfmMaNetRowStatus(5) type=3
+                        dot1agCfmMaIdPermission(6) type=3
+                        dot1agCfmMaCcmInterval(7) type=3
+                        dot1agCfmMaNumberOfVids(8) type=15
+                        dot1agCfmMaRowStatus(9) type=3
                     dot1agCfmMaCompTable(2) type=0
                       dot1agCfmMaCompEntry(1) type=0
                         dot1agCfmMaComponentId(1) type=15 hint=d
